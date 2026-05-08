@@ -528,7 +528,7 @@ redeemForm.addEventListener("submit", redeemEnteredCode);
 );
 
 Promise.all([
-  fetch("cards.json?v=1").then((res) => res.json()),
+  fetch("cards.json?v=2").then((res) => res.json()),
   fetch("packs.json?v=1").then((res) => res.json()),
   fetch("codes.json?v=1").then((res) => res.json()).catch(() => []),
 ])
