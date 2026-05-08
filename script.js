@@ -7,9 +7,11 @@ const inventoryGrid = document.querySelector("#inventory-grid");
 const catalogGrid = document.querySelector("#catalog-grid");
 const inventorySearch = document.querySelector("#inventory-search");
 const inventoryEdition = document.querySelector("#inventory-edition");
+const inventoryLimited = document.querySelector("#inventory-limited");
 const inventorySort = document.querySelector("#inventory-sort");
 const catalogSearch = document.querySelector("#catalog-search");
 const catalogEdition = document.querySelector("#catalog-edition");
+const catalogLimited = document.querySelector("#catalog-limited");
 const catalogSort = document.querySelector("#catalog-sort");
 const redeemForm = document.querySelector("#redeem-form");
 const redeemCode = document.querySelector("#redeem-code");
@@ -89,11 +91,11 @@ function renderCardElement(card, options = {}) {
   }`;
   if (options.clickable) cardEl.type = "button";
   cardEl.innerHTML = `
-    ${card.limitedEdition ? `<div class="limited-ribbon">limited edition</div>` : ""}
     <div class="card-topline">
       <strong>${card.name}</strong>
       <span>${card.power}</span>
     </div>
+    ${card.limitedEdition ? `<div class="limited-ribbon">limited edition</div>` : ""}
     <div class="card-art"><img src="${card.image}" alt="" /></div>
     <div class="edition">${card.edition}</div>
     <p>${card.description}</p>
@@ -115,8 +117,18 @@ function editionRank(edition) {
 
 function getControls(kind) {
   return kind === "inventory"
-    ? { search: inventorySearch.value, edition: inventoryEdition.value, sort: inventorySort.value }
-    : { search: catalogSearch.value, edition: catalogEdition.value, sort: catalogSort.value };
+    ? {
+        search: inventorySearch.value,
+        edition: inventoryEdition.value,
+        limited: inventoryLimited.value,
+        sort: inventorySort.value,
+      }
+    : {
+        search: catalogSearch.value,
+        edition: catalogEdition.value,
+        limited: catalogLimited.value,
+        sort: catalogSort.value,
+      };
 }
 
 function applyCardFilters(list, kind) {
@@ -125,12 +137,16 @@ function applyCardFilters(list, kind) {
   return list
     .filter((card) => {
       const matchesEdition = controls.edition === "All" || card.edition === controls.edition;
+      const matchesLimited =
+        controls.limited === "All" ||
+        (controls.limited === "Limited" && card.limitedEdition) ||
+        (controls.limited === "Standard" && !card.limitedEdition);
       const matchesSearch =
         !query ||
         card.name.toLowerCase().includes(query) ||
         card.description.toLowerCase().includes(query) ||
         Object.keys(card.attributes).some((attribute) => attribute.toLowerCase().includes(query));
-      return matchesEdition && matchesSearch;
+      return matchesEdition && matchesLimited && matchesSearch;
     })
     .sort((a, b) => {
       switch (controls.sort) {
@@ -504,8 +520,12 @@ nextReveal.addEventListener("click", () => {
   renderReveal();
 });
 redeemForm.addEventListener("submit", redeemEnteredCode);
-[inventorySearch, inventoryEdition, inventorySort].forEach((control) => control.addEventListener("input", renderInventory));
-[catalogSearch, catalogEdition, catalogSort].forEach((control) => control.addEventListener("input", renderCatalog));
+[inventorySearch, inventoryEdition, inventoryLimited, inventorySort].forEach((control) =>
+  control.addEventListener("input", renderInventory),
+);
+[catalogSearch, catalogEdition, catalogLimited, catalogSort].forEach((control) =>
+  control.addEventListener("input", renderCatalog),
+);
 
 Promise.all([
   fetch("cards.json").then((res) => res.json()),
