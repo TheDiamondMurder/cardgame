@@ -11,7 +11,9 @@
                            "Endurance":  45,
                            "Defense":  37,
                            "Control":  84
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-serpent-prime",
@@ -25,7 +27,9 @@
                            "Agility":  10,
                            "Endurance":  80,
                            "Hype":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-knight",
@@ -39,7 +43,9 @@
                            "Fear":  65,
                            "Agility":  0,
                            "Style":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-elemental",
@@ -53,7 +59,9 @@
                            "Control":  78,
                            "Defense":  6,
                            "Chaos":  63
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-demon",
@@ -67,7 +75,9 @@
                            "Style":  55,
                            "Chaos":  62,
                            "Strength":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-valkyrie",
@@ -81,7 +91,9 @@
                            "Charm":  4,
                            "Stealth":  88,
                            "Energy":  15
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-angel-queen",
@@ -95,7 +107,9 @@
                            "Skill":  58,
                            "Hype":  90,
                            "Luck":  74
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-nomad-runner",
@@ -109,7 +123,9 @@
                            "Charm":  43,
                            "Endurance":  30,
                            "Magic":  30
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-guardian-alpha",
@@ -123,7 +139,9 @@
                            "Agility":  21,
                            "Chaos":  65,
                            "Speed":  64
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-engineer",
@@ -137,7 +155,9 @@
                            "Fear":  62,
                            "Style":  35,
                            "Luck":  62
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-alchemist",
@@ -151,7 +171,9 @@
                            "Stealth":  42,
                            "Fear":  28,
                            "Strength":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-mammoth-alpha",
@@ -165,7 +187,9 @@
                            "Endurance":  65,
                            "Hype":  37,
                            "Precision":  61
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-goblin-ace",
@@ -179,7 +203,9 @@
                            "Focus":  35,
                            "Energy":  19,
                            "Agility":  92
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-sprite-keeper",
@@ -193,7 +219,9 @@
                            "Stealth":  18,
                            "Rage":  64,
                            "Chaos":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-knight",
@@ -207,7 +235,9 @@
                            "Luck":  10,
                            "Fear":  10,
                            "Precision":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-pirate-lord",
@@ -221,7 +251,9 @@
                            "Strength":  39,
                            "Precision":  94,
                            "Endurance":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-mammoth-core",
@@ -235,7 +267,9 @@
                            "Style":  61,
                            "Energy":  71,
                            "Hype":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-ninja-runner",
@@ -249,7 +283,9 @@
                            "Precision":  90,
                            "Chaos":  78,
                            "Luck":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-shaman",
@@ -263,7 +299,9 @@
                            "Luck":  68,
                            "Magic":  25,
                            "Defense":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-druid",
@@ -277,7 +315,9 @@
                            "Strength":  52,
                            "Energy":  43,
                            "Defense":  14
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-ranger",
@@ -291,7 +331,9 @@
                            "Strength":  43,
                            "Wisdom":  79,
                            "Fear":  83
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-sphinx-breaker",
@@ -305,7 +347,9 @@
                            "Control":  21,
                            "Agility":  12,
                            "Chaos":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-wizard-alpha",
@@ -319,7 +363,9 @@
                            "Precision":  6,
                            "Focus":  5,
                            "Charm":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-samurai-zero",
@@ -333,7 +379,9 @@
                            "Energy":  37,
                            "Control":  35,
                            "Defense":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-cyclops",
@@ -347,7 +395,9 @@
                            "Precision":  31,
                            "Chaos":  90,
                            "Endurance":  87
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-beast",
@@ -361,7 +411,9 @@
                            "Speed":  44,
                            "Precision":  50,
                            "Focus":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-reaper",
@@ -375,7 +427,9 @@
                            "Skill":  44,
                            "Stealth":  59,
                            "Energy":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-viper",
@@ -389,7 +443,9 @@
                            "Hype":  51,
                            "Strength":  31,
                            "Luck":  75
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-lion-breaker",
@@ -403,7 +459,9 @@
                            "Charm":  55,
                            "Agility":  42,
                            "Focus":  7
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-jester",
@@ -417,7 +475,9 @@
                            "Hype":  80,
                            "Agility":  69,
                            "Rage":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-raptor",
@@ -431,7 +491,9 @@
                            "Wisdom":  79,
                            "Skill":  67,
                            "Control":  47
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-pirate",
@@ -445,7 +507,9 @@
                            "Chaos":  100,
                            "Luck":  36,
                            "Strength":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-berserker-spirit",
@@ -459,7 +523,9 @@
                            "Luck":  26,
                            "Wisdom":  20,
                            "Endurance":  92
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-falcon-blade",
@@ -473,7 +539,9 @@
                            "Control":  19,
                            "Stealth":  32,
                            "Hype":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-bandit-seeker",
@@ -487,7 +555,9 @@
                            "Strength":  96,
                            "Magic":  8,
                            "Agility":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-wizard",
@@ -501,7 +571,9 @@
                            "Endurance":  38,
                            "Chaos":  80,
                            "Speed":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-druid-rider",
@@ -515,7 +587,9 @@
                            "Fear":  3,
                            "Control":  40,
                            "Endurance":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-titan",
@@ -529,7 +603,9 @@
                            "Control":  81,
                            "Rage":  72,
                            "Speed":  46
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-paladin-rider",
@@ -543,7 +619,9 @@
                            "Fear":  22,
                            "Magic":  50,
                            "Focus":  33
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-demon-alpha",
@@ -557,7 +635,9 @@
                            "Energy":  28,
                            "Precision":  68,
                            "Stealth":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-raptor",
@@ -571,7 +651,9 @@
                            "Skill":  88,
                            "Strength":  22,
                            "Speed":  11
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-mammoth-core",
@@ -585,7 +667,9 @@
                            "Agility":  93,
                            "Fear":  73,
                            "Defense":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-sphinx-rider",
@@ -599,7 +683,9 @@
                            "Magic":  81,
                            "Endurance":  41,
                            "Hype":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-serpent",
@@ -613,7 +699,9 @@
                            "Precision":  78,
                            "Focus":  27,
                            "Magic":  18
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-phoenix",
@@ -627,7 +715,9 @@
                            "Speed":  56,
                            "Style":  92,
                            "Luck":  89
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-oracle",
@@ -641,7 +731,9 @@
                            "Fear":  57,
                            "Magic":  11,
                            "Control":  60
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-assassin",
@@ -655,7 +747,9 @@
                            "Strength":  56,
                            "Fear":  7,
                            "Charm":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-pirate",
@@ -669,7 +763,9 @@
                            "Defense":  60,
                            "Hype":  98,
                            "Luck":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-falcon",
@@ -683,7 +779,9 @@
                            "Fear":  87,
                            "Energy":  22,
                            "Skill":  42
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-ninja-spirit",
@@ -697,7 +795,9 @@
                            "Style":  96,
                            "Energy":  42,
                            "Speed":  66
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-demon",
@@ -711,7 +811,9 @@
                            "Defense":  21,
                            "Luck":  36,
                            "Control":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-dragon",
@@ -725,7 +827,9 @@
                            "Focus":  31,
                            "Defense":  89,
                            "Fear":  43
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-golem",
@@ -739,7 +843,9 @@
                            "Energy":  0,
                            "Style":  88,
                            "Rage":  26
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-phoenix",
@@ -753,7 +859,9 @@
                            "Defense":  68,
                            "Style":  87,
                            "Hype":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-paladin",
@@ -767,7 +875,9 @@
                            "Wisdom":  28,
                            "Magic":  68,
                            "Endurance":  22
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-alchemist",
@@ -781,7 +891,9 @@
                            "Defense":  49,
                            "Strength":  37,
                            "Precision":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-cyclops-keeper",
@@ -795,7 +907,9 @@
                            "Rage":  41,
                            "Control":  66,
                            "Focus":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-hunter",
@@ -809,7 +923,9 @@
                            "Skill":  72,
                            "Hype":  27,
                            "Energy":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-viper",
@@ -823,7 +939,9 @@
                            "Skill":  82,
                            "Control":  23,
                            "Defense":  64
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-alchemist",
@@ -837,7 +955,9 @@
                            "Wisdom":  25,
                            "Luck":  83,
                            "Chaos":  0
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-nomad",
@@ -851,7 +971,9 @@
                            "Stealth":  76,
                            "Skill":  66,
                            "Defense":  11
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-oracle-king",
@@ -865,7 +987,9 @@
                            "Charm":  41,
                            "Magic":  3,
                            "Endurance":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-hawk",
@@ -879,7 +1003,9 @@
                            "Precision":  83,
                            "Magic":  100,
                            "Focus":  39
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-griffin-master",
@@ -893,7 +1019,9 @@
                            "Energy":  54,
                            "Fear":  80,
                            "Control":  49
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-jester",
@@ -907,7 +1035,9 @@
                            "Endurance":  40,
                            "Skill":  53,
                            "Precision":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-nomad",
@@ -921,7 +1051,9 @@
                            "Energy":  58,
                            "Focus":  87,
                            "Defense":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-alchemist",
@@ -935,7 +1067,9 @@
                            "Fear":  21,
                            "Magic":  86,
                            "Luck":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-falcon",
@@ -949,7 +1083,9 @@
                            "Precision":  36,
                            "Charm":  41,
                            "Defense":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-falcon",
@@ -963,7 +1099,9 @@
                            "Luck":  68,
                            "Rage":  60,
                            "Wisdom":  3
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "inferno-cyclops-seeker",
@@ -977,7 +1115,9 @@
                            "Rage":  29,
                            "Hype":  34,
                            "Defense":  80
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-demon",
@@ -991,7 +1131,9 @@
                            "Precision":  25,
                            "Hype":  76,
                            "Magic":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-warlock",
@@ -1005,7 +1147,9 @@
                            "Magic":  77,
                            "Energy":  85,
                            "Stealth":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-phoenix-keeper",
@@ -1019,7 +1163,9 @@
                            "Agility":  89,
                            "Fear":  69,
                            "Defense":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-demon",
@@ -1033,7 +1179,9 @@
                            "Stealth":  33,
                            "Rage":  76,
                            "Chaos":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-lion",
@@ -1047,7 +1195,9 @@
                            "Agility":  32,
                            "Stealth":  22,
                            "Defense":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-champion",
@@ -1061,7 +1211,9 @@
                            "Magic":  7,
                            "Hype":  36,
                            "Stealth":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-guardian-spirit",
@@ -1075,7 +1227,9 @@
                            "Speed":  44,
                            "Wisdom":  93,
                            "Hype":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-warden-elite",
@@ -1089,7 +1243,9 @@
                            "Skill":  97,
                            "Luck":  75,
                            "Control":  0
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-lion",
@@ -1103,7 +1259,9 @@
                            "Hype":  80,
                            "Style":  53,
                            "Strength":  23
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-pirate-king",
@@ -1117,7 +1275,9 @@
                            "Control":  35,
                            "Fear":  29,
                            "Energy":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-druid",
@@ -1131,7 +1291,9 @@
                            "Focus":  56,
                            "Strength":  94,
                            "Agility":  63
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-specter-seeker",
@@ -1145,7 +1307,9 @@
                            "Luck":  50,
                            "Fear":  41,
                            "Precision":  21
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-lion",
@@ -1159,7 +1323,9 @@
                            "Precision":  66,
                            "Charm":  65,
                            "Rage":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-dragon-caller",
@@ -1173,7 +1339,9 @@
                            "Magic":  59,
                            "Luck":  21,
                            "Hype":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-sprite-breaker",
@@ -1187,7 +1355,9 @@
                            "Defense":  33,
                            "Skill":  53,
                            "Fear":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-phoenix",
@@ -1201,7 +1371,9 @@
                            "Wisdom":  39,
                            "Energy":  93,
                            "Luck":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-wolf",
@@ -1215,7 +1387,9 @@
                            "Hype":  86,
                            "Precision":  13,
                            "Defense":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-pirate-elite",
@@ -1229,7 +1403,9 @@
                            "Fear":  39,
                            "Luck":  20,
                            "Charm":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-wizard",
@@ -1243,7 +1419,9 @@
                            "Control":  9,
                            "Fear":  32,
                            "Luck":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-golem-king",
@@ -1257,7 +1435,9 @@
                            "Chaos":  49,
                            "Style":  33,
                            "Hype":  31
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-wizard",
@@ -1271,7 +1451,9 @@
                            "Defense":  55,
                            "Chaos":  36,
                            "Wisdom":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-viper-elite",
@@ -1285,7 +1467,9 @@
                            "Hype":  75,
                            "Stealth":  26,
                            "Endurance":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-raptor-core",
@@ -1299,7 +1483,9 @@
                            "Energy":  63,
                            "Precision":  40,
                            "Focus":  68
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-cyclops",
@@ -1313,7 +1499,9 @@
                            "Agility":  17,
                            "Fear":  63,
                            "Control":  18
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-wizard-elite",
@@ -1327,7 +1515,9 @@
                            "Rage":  14,
                            "Precision":  43,
                            "Endurance":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-griffin-keeper",
@@ -1341,7 +1531,9 @@
                            "Fear":  52,
                            "Skill":  55,
                            "Focus":  83
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-beast-alpha",
@@ -1355,7 +1547,9 @@
                            "Wisdom":  53,
                            "Charm":  91,
                            "Precision":  0
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "inferno-elemental-zero",
@@ -1369,7 +1563,9 @@
                            "Wisdom":  35,
                            "Style":  75,
                            "Magic":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-wizard",
@@ -1383,7 +1579,9 @@
                            "Rage":  37,
                            "Defense":  59,
                            "Stealth":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-berserker",
@@ -1397,7 +1595,9 @@
                            "Chaos":  74,
                            "Charm":  34,
                            "Fear":  89
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-sprite",
@@ -1411,7 +1611,9 @@
                            "Wisdom":  62,
                            "Control":  17,
                            "Style":  39
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-ninja",
@@ -1425,7 +1627,9 @@
                            "Hype":  30,
                            "Agility":  52,
                            "Skill":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-ninja-mk-ii",
@@ -1439,7 +1643,9 @@
                            "Luck":  11,
                            "Hype":  25,
                            "Agility":  84
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-sprite-zero",
@@ -1453,7 +1659,9 @@
                            "Energy":  11,
                            "Hype":  17,
                            "Endurance":  5
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-alchemist",
@@ -1467,7 +1675,9 @@
                            "Wisdom":  66,
                            "Style":  70,
                            "Stealth":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-wizard",
@@ -1481,7 +1691,9 @@
                            "Defense":  3,
                            "Endurance":  61,
                            "Stealth":  44
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-pirate",
@@ -1495,7 +1707,9 @@
                            "Wisdom":  56,
                            "Precision":  5,
                            "Strength":  5
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-guardian",
@@ -1509,7 +1723,9 @@
                            "Speed":  60,
                            "Focus":  37,
                            "Agility":  8
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-ninja",
@@ -1523,7 +1739,9 @@
                            "Agility":  39,
                            "Energy":  38,
                            "Chaos":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-wolf-king",
@@ -1537,7 +1755,9 @@
                            "Magic":  21,
                            "Fear":  20,
                            "Skill":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-knight",
@@ -1551,7 +1771,9 @@
                            "Strength":  93,
                            "Stealth":  22,
                            "Endurance":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-sprite",
@@ -1565,7 +1787,9 @@
                            "Style":  0,
                            "Magic":  27,
                            "Defense":  42
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-samurai",
@@ -1579,7 +1803,9 @@
                            "Style":  51,
                            "Agility":  3,
                            "Rage":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-monk-alpha",
@@ -1593,7 +1819,9 @@
                            "Hype":  68,
                            "Speed":  71,
                            "Control":  54
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-giant-keeper",
@@ -1607,7 +1835,9 @@
                            "Hype":  86,
                            "Skill":  31,
                            "Magic":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-oracle-prime",
@@ -1621,7 +1851,9 @@
                            "Energy":  8,
                            "Rage":  87,
                            "Fear":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-engineer-queen",
@@ -1635,7 +1867,9 @@
                            "Magic":  65,
                            "Luck":  32,
                            "Speed":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-samurai",
@@ -1649,7 +1883,9 @@
                            "Strength":  40,
                            "Hype":  8,
                            "Charm":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-titan",
@@ -1663,7 +1899,9 @@
                            "Fear":  33,
                            "Luck":  27,
                            "Style":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-sphinx",
@@ -1677,7 +1915,9 @@
                            "Wisdom":  82,
                            "Focus":  14,
                            "Precision":  0
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-dragon",
@@ -1691,7 +1931,9 @@
                            "Fear":  82,
                            "Rage":  18,
                            "Skill":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "royal-oracle",
@@ -1705,7 +1947,9 @@
                            "Strength":  85,
                            "Energy":  63,
                            "Charm":  21
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-cyclops",
@@ -1719,7 +1963,9 @@
                            "Fear":  74,
                            "Focus":  9,
                            "Defense":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-specter",
@@ -1733,7 +1979,9 @@
                            "Magic":  53,
                            "Charm":  88,
                            "Control":  37
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-hunter",
@@ -1747,7 +1995,9 @@
                            "Defense":  69,
                            "Precision":  64,
                            "Endurance":  36
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-lion",
@@ -1761,7 +2011,9 @@
                            "Endurance":  83,
                            "Precision":  38,
                            "Luck":  50
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-hunter-alpha",
@@ -1775,7 +2027,9 @@
                            "Hype":  43,
                            "Stealth":  83,
                            "Charm":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-golem",
@@ -1789,7 +2043,9 @@
                            "Precision":  12,
                            "Wisdom":  85,
                            "Strength":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-nomad-alpha",
@@ -1803,7 +2059,9 @@
                            "Chaos":  55,
                            "Focus":  72,
                            "Rage":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-wolf",
@@ -1817,7 +2075,9 @@
                            "Control":  30,
                            "Focus":  42,
                            "Agility":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-knight-ace",
@@ -1831,7 +2091,9 @@
                            "Energy":  25,
                            "Endurance":  9,
                            "Control":  54
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-assassin-lord",
@@ -1845,7 +2107,9 @@
                            "Luck":  92,
                            "Focus":  88,
                            "Stealth":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-hawk",
@@ -1859,7 +2123,9 @@
                            "Stealth":  40,
                            "Focus":  50,
                            "Chaos":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-hunter",
@@ -1873,7 +2139,9 @@
                            "Magic":  52,
                            "Precision":  58,
                            "Defense":  91
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-elemental-caller",
@@ -1887,7 +2155,9 @@
                            "Style":  89,
                            "Luck":  24,
                            "Magic":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-mammoth-spirit",
@@ -1901,7 +2171,9 @@
                            "Precision":  21,
                            "Stealth":  21,
                            "Energy":  44
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-wizard",
@@ -1915,7 +2187,9 @@
                            "Chaos":  62,
                            "Magic":  76,
                            "Rage":  16
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-mammoth",
@@ -1929,7 +2203,9 @@
                            "Style":  19,
                            "Control":  6,
                            "Hype":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-alchemist",
@@ -1943,7 +2219,9 @@
                            "Wisdom":  45,
                            "Precision":  55,
                            "Focus":  31
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-shaman",
@@ -1957,7 +2235,9 @@
                            "Speed":  33,
                            "Precision":  88,
                            "Wisdom":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-guardian",
@@ -1971,7 +2251,9 @@
                            "Hype":  12,
                            "Skill":  73,
                            "Fear":  3
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-lion-lord",
@@ -1985,7 +2267,9 @@
                            "Luck":  73,
                            "Hype":  11,
                            "Strength":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-champion-prime",
@@ -1999,7 +2283,9 @@
                            "Rage":  70,
                            "Stealth":  15,
                            "Agility":  37
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-kraken-caller",
@@ -2013,7 +2299,9 @@
                            "Chaos":  69,
                            "Hype":  63,
                            "Strength":  53
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-guardian",
@@ -2027,7 +2315,9 @@
                            "Rage":  90,
                            "Agility":  74,
                            "Hype":  39
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-shaman-lord",
@@ -2041,7 +2331,9 @@
                            "Defense":  58,
                            "Wisdom":  4,
                            "Chaos":  97
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-falcon-blade",
@@ -2055,7 +2347,9 @@
                            "Wisdom":  42,
                            "Endurance":  97,
                            "Strength":  19
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-bandit-rider",
@@ -2069,7 +2363,9 @@
                            "Charm":  17,
                            "Speed":  29,
                            "Rage":  37
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-dragon-elite",
@@ -2083,7 +2379,9 @@
                            "Rage":  31,
                            "Control":  32,
                            "Charm":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-angel-elite",
@@ -2097,7 +2395,9 @@
                            "Speed":  53,
                            "Agility":  25,
                            "Stealth":  87
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-warlock",
@@ -2111,7 +2411,9 @@
                            "Charm":  32,
                            "Agility":  86,
                            "Precision":  8
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-dragon-lord",
@@ -2125,7 +2427,9 @@
                            "Stealth":  22,
                            "Endurance":  17,
                            "Speed":  62
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-sphinx-blade",
@@ -2139,7 +2443,9 @@
                            "Defense":  20,
                            "Strength":  60,
                            "Style":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-druid-ace",
@@ -2153,7 +2459,9 @@
                            "Precision":  10,
                            "Rage":  25,
                            "Fear":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-raptor",
@@ -2167,7 +2475,9 @@
                            "Luck":  75,
                            "Charm":  5,
                            "Stealth":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-samurai-spirit",
@@ -2181,7 +2491,9 @@
                            "Fear":  94,
                            "Energy":  51,
                            "Chaos":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-knight-seeker",
@@ -2195,7 +2507,9 @@
                            "Strength":  64,
                            "Rage":  68,
                            "Defense":  14
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-monk-rider",
@@ -2209,7 +2523,9 @@
                            "Fear":  26,
                            "Charm":  54,
                            "Energy":  43
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-ninja-prime",
@@ -2223,7 +2539,9 @@
                            "Magic":  89,
                            "Style":  59,
                            "Stealth":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-hawk-keeper",
@@ -2237,7 +2555,9 @@
                            "Charm":  51,
                            "Precision":  97,
                            "Endurance":  74
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-mammoth-ace",
@@ -2251,7 +2571,9 @@
                            "Strength":  93,
                            "Focus":  49,
                            "Endurance":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-hawk",
@@ -2265,7 +2587,9 @@
                            "Charm":  84,
                            "Hype":  64,
                            "Agility":  27
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-raptor-prime",
@@ -2279,7 +2603,9 @@
                            "Control":  7,
                            "Style":  57,
                            "Defense":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-berserker-alpha",
@@ -2293,7 +2619,9 @@
                            "Rage":  43,
                            "Hype":  95,
                            "Speed":  44
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-cyclops",
@@ -2307,7 +2635,9 @@
                            "Fear":  78,
                            "Endurance":  50,
                            "Luck":  66
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-samurai",
@@ -2321,7 +2651,9 @@
                            "Strength":  58,
                            "Agility":  8,
                            "Magic":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-valkyrie",
@@ -2335,7 +2667,9 @@
                            "Focus":  50,
                            "Chaos":  58,
                            "Fear":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-engineer-breaker",
@@ -2349,7 +2683,9 @@
                            "Skill":  28,
                            "Rage":  5,
                            "Precision":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-nomad",
@@ -2363,7 +2699,9 @@
                            "Rage":  26,
                            "Precision":  100,
                            "Hype":  33
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-elemental",
@@ -2377,7 +2715,9 @@
                            "Magic":  9,
                            "Charm":  49,
                            "Stealth":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-ninja-zero",
@@ -2391,7 +2731,9 @@
                            "Energy":  38,
                            "Agility":  1,
                            "Wisdom":  21
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-elemental",
@@ -2405,7 +2747,9 @@
                            "Focus":  22,
                            "Luck":  84,
                            "Strength":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-engineer",
@@ -2419,7 +2763,9 @@
                            "Luck":  68,
                            "Skill":  56,
                            "Hype":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-lion-master",
@@ -2433,7 +2779,9 @@
                            "Skill":  78,
                            "Hype":  23,
                            "Strength":  70
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-beast",
@@ -2447,7 +2795,9 @@
                            "Magic":  93,
                            "Luck":  56,
                            "Control":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-specter-keeper",
@@ -2461,7 +2811,9 @@
                            "Agility":  34,
                            "Charm":  1,
                            "Fear":  70
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-alchemist-blade",
@@ -2475,7 +2827,9 @@
                            "Luck":  73,
                            "Magic":  100,
                            "Hype":  31
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-viper-queen",
@@ -2489,7 +2843,9 @@
                            "Endurance":  91,
                            "Magic":  15,
                            "Style":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-sphinx-core",
@@ -2503,7 +2859,9 @@
                            "Strength":  87,
                            "Focus":  13,
                            "Precision":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-ranger-seeker",
@@ -2517,7 +2875,9 @@
                            "Hype":  85,
                            "Wisdom":  23,
                            "Rage":  68
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-oracle-blade",
@@ -2531,7 +2891,9 @@
                            "Stealth":  65,
                            "Wisdom":  39,
                            "Rage":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-valkyrie-prime",
@@ -2545,7 +2907,9 @@
                            "Agility":  33,
                            "Endurance":  0,
                            "Wisdom":  54
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-oracle",
@@ -2559,7 +2923,9 @@
                            "Focus":  81,
                            "Skill":  34,
                            "Luck":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-monk",
@@ -2573,7 +2939,9 @@
                            "Speed":  8,
                            "Style":  56,
                            "Agility":  98
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-demon",
@@ -2587,7 +2955,9 @@
                            "Defense":  70,
                            "Magic":  59,
                            "Hype":  89
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-mammoth",
@@ -2601,7 +2971,9 @@
                            "Skill":  56,
                            "Control":  93,
                            "Energy":  99
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-knight",
@@ -2615,7 +2987,9 @@
                            "Wisdom":  98,
                            "Energy":  93,
                            "Focus":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-sentinel",
@@ -2629,7 +3003,9 @@
                            "Luck":  69,
                            "Wisdom":  55,
                            "Strength":  26
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-alchemist-master",
@@ -2643,7 +3019,9 @@
                            "Chaos":  68,
                            "Endurance":  88,
                            "Speed":  9
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-druid-queen",
@@ -2657,7 +3035,9 @@
                            "Fear":  79,
                            "Stealth":  53,
                            "Luck":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-phoenix-elite",
@@ -2671,7 +3051,9 @@
                            "Fear":  53,
                            "Speed":  92,
                            "Control":  36
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-titan-alpha",
@@ -2685,7 +3067,9 @@
                            "Fear":  4,
                            "Strength":  77,
                            "Skill":  99
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-sphinx",
@@ -2699,7 +3083,9 @@
                            "Control":  62,
                            "Luck":  79,
                            "Defense":  97
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-hunter-caller",
@@ -2713,7 +3099,9 @@
                            "Stealth":  33,
                            "Control":  70,
                            "Energy":  36
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-pirate-zero",
@@ -2727,7 +3115,9 @@
                            "Energy":  51,
                            "Focus":  38,
                            "Stealth":  31
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-sentinel-prime",
@@ -2741,7 +3131,9 @@
                            "Focus":  8,
                            "Speed":  17,
                            "Magic":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-shaman",
@@ -2755,7 +3147,9 @@
                            "Precision":  71,
                            "Hype":  77,
                            "Defense":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-druid",
@@ -2769,7 +3163,9 @@
                            "Energy":  35,
                            "Stealth":  0,
                            "Precision":  36
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-sphinx",
@@ -2783,7 +3179,9 @@
                            "Agility":  0,
                            "Luck":  33,
                            "Style":  50
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-goblin-mk-ii",
@@ -2797,7 +3195,9 @@
                            "Strength":  81,
                            "Energy":  90,
                            "Charm":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-assassin",
@@ -2811,7 +3211,9 @@
                            "Charm":  55,
                            "Endurance":  15,
                            "Precision":  8
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-sprite-striker",
@@ -2825,7 +3227,9 @@
                            "Stealth":  10,
                            "Skill":  15,
                            "Magic":  43
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-mammoth",
@@ -2839,7 +3243,9 @@
                            "Precision":  86,
                            "Strength":  90,
                            "Luck":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "diamond-phoenix-blade",
@@ -2853,7 +3259,9 @@
                            "Chaos":  80,
                            "Control":  88,
                            "Focus":  49
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-specter",
@@ -2867,7 +3275,9 @@
                            "Strength":  37,
                            "Speed":  9,
                            "Precision":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-shaman-prime",
@@ -2881,7 +3291,9 @@
                            "Wisdom":  0,
                            "Magic":  69,
                            "Focus":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-pirate-master",
@@ -2895,7 +3307,9 @@
                            "Speed":  86,
                            "Wisdom":  82,
                            "Agility":  33
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-cyclops",
@@ -2909,7 +3323,9 @@
                            "Style":  74,
                            "Luck":  2,
                            "Magic":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-sprite",
@@ -2923,7 +3339,9 @@
                            "Rage":  100,
                            "Precision":  16,
                            "Magic":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-golem",
@@ -2937,7 +3355,9 @@
                            "Agility":  73,
                            "Stealth":  70,
                            "Hype":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-champion",
@@ -2951,7 +3371,9 @@
                            "Fear":  81,
                            "Defense":  21,
                            "Focus":  98
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "inferno-wizard",
@@ -2965,7 +3387,9 @@
                            "Stealth":  95,
                            "Control":  1,
                            "Luck":  22
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-elemental-ace",
@@ -2979,7 +3403,9 @@
                            "Hype":  55,
                            "Charm":  3,
                            "Rage":  68
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-falcon",
@@ -2993,7 +3419,9 @@
                            "Focus":  95,
                            "Stealth":  72,
                            "Speed":  67
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-warlock",
@@ -3007,7 +3435,9 @@
                            "Luck":  31,
                            "Skill":  6,
                            "Fear":  26
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-sentinel",
@@ -3021,7 +3451,9 @@
                            "Agility":  0,
                            "Control":  34,
                            "Charm":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-lion-elite",
@@ -3035,7 +3467,9 @@
                            "Energy":  53,
                            "Rage":  27,
                            "Charm":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-champion",
@@ -3049,7 +3483,9 @@
                            "Defense":  23,
                            "Magic":  34,
                            "Agility":  42
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-reaper",
@@ -3063,7 +3499,9 @@
                            "Hype":  94,
                            "Endurance":  27,
                            "Defense":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-nomad-mk-ii",
@@ -3077,7 +3515,9 @@
                            "Defense":  93,
                            "Endurance":  27,
                            "Luck":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-cyclops-spirit",
@@ -3091,7 +3531,9 @@
                            "Strength":  34,
                            "Charm":  19,
                            "Hype":  2
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-ninja",
@@ -3105,7 +3547,9 @@
                            "Strength":  16,
                            "Style":  100,
                            "Magic":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-griffin",
@@ -3119,7 +3563,9 @@
                            "Defense":  19,
                            "Style":  12,
                            "Fear":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "diamond-warlock",
@@ -3133,7 +3579,9 @@
                            "Hype":  84,
                            "Control":  23,
                            "Focus":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-reaper-master",
@@ -3147,7 +3595,9 @@
                            "Style":  48,
                            "Agility":  70,
                            "Strength":  28
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-hawk",
@@ -3161,7 +3611,9 @@
                            "Strength":  84,
                            "Speed":  26,
                            "Endurance":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-oracle-ace",
@@ -3175,7 +3627,9 @@
                            "Focus":  31,
                            "Rage":  80,
                            "Magic":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-demon-mk-ii",
@@ -3189,7 +3643,9 @@
                            "Strength":  1,
                            "Focus":  20,
                            "Defense":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-monk",
@@ -3203,7 +3659,9 @@
                            "Skill":  98,
                            "Fear":  14,
                            "Wisdom":  36
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-samurai-breaker",
@@ -3217,7 +3675,9 @@
                            "Fear":  55,
                            "Focus":  18,
                            "Wisdom":  35
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-mammoth-striker",
@@ -3231,7 +3691,9 @@
                            "Speed":  87,
                            "Strength":  18,
                            "Defense":  72
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-specter",
@@ -3245,7 +3707,9 @@
                            "Endurance":  44,
                            "Focus":  74,
                            "Fear":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-dragon-rider",
@@ -3259,7 +3723,9 @@
                            "Fear":  74,
                            "Chaos":  87,
                            "Control":  45
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-warlock",
@@ -3273,7 +3739,9 @@
                            "Luck":  96,
                            "Strength":  50,
                            "Skill":  27
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "royal-griffin",
@@ -3287,7 +3755,9 @@
                            "Chaos":  8,
                            "Strength":  18,
                            "Skill":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "royal-demon-alpha",
@@ -3301,7 +3771,9 @@
                            "Agility":  86,
                            "Charm":  73,
                            "Hype":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-ninja-breaker",
@@ -3315,7 +3787,9 @@
                            "Wisdom":  50,
                            "Luck":  36,
                            "Chaos":  89
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-titan",
@@ -3329,7 +3803,9 @@
                            "Endurance":  69,
                            "Style":  77,
                            "Stealth":  2
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-elemental",
@@ -3343,7 +3819,9 @@
                            "Rage":  85,
                            "Luck":  0,
                            "Wisdom":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-sentinel",
@@ -3357,7 +3835,9 @@
                            "Control":  54,
                            "Energy":  81,
                            "Luck":  14
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-cyclops",
@@ -3371,7 +3851,9 @@
                            "Hype":  11,
                            "Stealth":  22,
                            "Charm":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-shaman-striker",
@@ -3385,7 +3867,9 @@
                            "Speed":  28,
                            "Charm":  5,
                            "Wisdom":  37
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-druid",
@@ -3399,7 +3883,9 @@
                            "Rage":  81,
                            "Wisdom":  29,
                            "Chaos":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-guardian",
@@ -3413,7 +3899,9 @@
                            "Speed":  4,
                            "Wisdom":  40,
                            "Skill":  47
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-alchemist",
@@ -3427,7 +3915,9 @@
                            "Hype":  57,
                            "Control":  28,
                            "Precision":  64
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-cyclops-rider",
@@ -3441,7 +3931,9 @@
                            "Style":  45,
                            "Fear":  100,
                            "Magic":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-mammoth-mk-ii",
@@ -3455,7 +3947,9 @@
                            "Precision":  19,
                            "Chaos":  66,
                            "Magic":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-engineer",
@@ -3469,7 +3963,9 @@
                            "Chaos":  37,
                            "Luck":  40,
                            "Hype":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-hawk",
@@ -3483,7 +3979,9 @@
                            "Magic":  95,
                            "Fear":  18,
                            "Control":  61
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-wolf",
@@ -3497,7 +3995,9 @@
                            "Hype":  57,
                            "Fear":  56,
                            "Chaos":  19
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-hunter",
@@ -3511,7 +4011,9 @@
                            "Stealth":  87,
                            "Charm":  72,
                            "Skill":  5
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-serpent",
@@ -3525,7 +4027,9 @@
                            "Style":  25,
                            "Fear":  47,
                            "Precision":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-knight-ace",
@@ -3539,7 +4043,9 @@
                            "Control":  18,
                            "Magic":  83,
                            "Charm":  44
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-berserker",
@@ -3553,7 +4059,9 @@
                            "Defense":  34,
                            "Magic":  22,
                            "Hype":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-shaman-master",
@@ -3567,7 +4075,9 @@
                            "Luck":  34,
                            "Endurance":  85,
                            "Fear":  23
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "inferno-specter-elite",
@@ -3581,7 +4091,9 @@
                            "Focus":  68,
                            "Precision":  59,
                            "Speed":  96
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-reaper",
@@ -3595,7 +4107,9 @@
                            "Hype":  87,
                            "Defense":  18,
                            "Magic":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-mammoth",
@@ -3609,7 +4123,9 @@
                            "Style":  0,
                            "Control":  26,
                            "Charm":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-druid",
@@ -3623,7 +4139,9 @@
                            "Chaos":  45,
                            "Agility":  46,
                            "Precision":  40
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-bandit-caller",
@@ -3637,7 +4155,9 @@
                            "Speed":  57,
                            "Skill":  86,
                            "Fear":  98
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-sphinx",
@@ -3651,7 +4171,9 @@
                            "Defense":  97,
                            "Skill":  62,
                            "Fear":  9
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-valkyrie",
@@ -3665,7 +4187,9 @@
                            "Focus":  10,
                            "Magic":  0,
                            "Fear":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-berserker",
@@ -3679,7 +4203,9 @@
                            "Magic":  31,
                            "Charm":  24,
                            "Strength":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-hunter-seeker",
@@ -3693,7 +4219,9 @@
                            "Charm":  66,
                            "Focus":  44,
                            "Style":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-shaman",
@@ -3707,7 +4235,9 @@
                            "Hype":  24,
                            "Defense":  90,
                            "Wisdom":  61
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-knight",
@@ -3721,7 +4251,9 @@
                            "Chaos":  69,
                            "Speed":  55,
                            "Rage":  40
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-viper",
@@ -3735,7 +4267,9 @@
                            "Skill":  59,
                            "Style":  44,
                            "Precision":  89
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-golem-blade",
@@ -3749,7 +4283,9 @@
                            "Rage":  26,
                            "Precision":  34,
                            "Speed":  60
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-knight",
@@ -3763,7 +4299,9 @@
                            "Endurance":  3,
                            "Fear":  26,
                            "Control":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-beast",
@@ -3777,7 +4315,9 @@
                            "Defense":  86,
                            "Endurance":  17,
                            "Rage":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-valkyrie-runner",
@@ -3791,7 +4331,9 @@
                            "Focus":  84,
                            "Endurance":  7,
                            "Wisdom":  53
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-berserker-elite",
@@ -3805,7 +4347,9 @@
                            "Stealth":  59,
                            "Strength":  23,
                            "Defense":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-beast",
@@ -3819,7 +4363,9 @@
                            "Endurance":  77,
                            "Hype":  2,
                            "Charm":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-assassin",
@@ -3833,7 +4379,9 @@
                            "Wisdom":  12,
                            "Charm":  40,
                            "Control":  15
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-serpent-ace",
@@ -3847,7 +4395,9 @@
                            "Focus":  15,
                            "Control":  7,
                            "Style":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-kraken-lord",
@@ -3861,7 +4411,9 @@
                            "Precision":  70,
                            "Strength":  64,
                            "Style":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-samurai",
@@ -3875,7 +4427,9 @@
                            "Energy":  63,
                            "Strength":  39,
                            "Charm":  70
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-mammoth",
@@ -3889,7 +4443,9 @@
                            "Energy":  96,
                            "Stealth":  26,
                            "Strength":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-shaman",
@@ -3903,7 +4459,9 @@
                            "Hype":  93,
                            "Focus":  93,
                            "Agility":  85
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-sprite-queen",
@@ -3917,7 +4475,9 @@
                            "Rage":  9,
                            "Control":  28,
                            "Magic":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-beast-queen",
@@ -3931,7 +4491,9 @@
                            "Focus":  97,
                            "Rage":  13,
                            "Wisdom":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-raptor-ace",
@@ -3945,7 +4507,9 @@
                            "Endurance":  98,
                            "Charm":  91,
                            "Magic":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-angel",
@@ -3959,7 +4523,9 @@
                            "Hype":  38,
                            "Control":  7,
                            "Stealth":  98
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-hawk",
@@ -3973,7 +4539,9 @@
                            "Precision":  40,
                            "Charm":  71,
                            "Stealth":  59
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-alchemist-rider",
@@ -3987,7 +4555,9 @@
                            "Skill":  33,
                            "Chaos":  1,
                            "Style":  91
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-samurai",
@@ -4001,7 +4571,9 @@
                            "Hype":  6,
                            "Style":  97,
                            "Focus":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-ninja",
@@ -4015,7 +4587,9 @@
                            "Wisdom":  19,
                            "Fear":  43,
                            "Chaos":  5
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-titan-caller",
@@ -4029,7 +4603,9 @@
                            "Energy":  74,
                            "Endurance":  7,
                            "Agility":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-valkyrie-seeker",
@@ -4043,7 +4619,9 @@
                            "Energy":  10,
                            "Endurance":  7,
                            "Magic":  74
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-hunter",
@@ -4057,7 +4635,9 @@
                            "Defense":  63,
                            "Chaos":  28,
                            "Stealth":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-elemental",
@@ -4071,7 +4651,9 @@
                            "Hype":  27,
                            "Precision":  59,
                            "Magic":  30
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "royal-berserker-blade",
@@ -4085,7 +4667,9 @@
                            "Defense":  43,
                            "Focus":  25,
                            "Speed":  10
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-serpent-elite",
@@ -4099,7 +4683,9 @@
                            "Strength":  9,
                            "Stealth":  29,
                            "Energy":  23
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-angel-spirit",
@@ -4113,7 +4699,9 @@
                            "Style":  54,
                            "Skill":  30,
                            "Luck":  72
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-wolf",
@@ -4127,7 +4715,9 @@
                            "Chaos":  10,
                            "Control":  7,
                            "Focus":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-assassin",
@@ -4141,7 +4731,9 @@
                            "Defense":  49,
                            "Hype":  7,
                            "Focus":  23
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-knight-core",
@@ -4155,7 +4747,9 @@
                            "Hype":  19,
                            "Endurance":  63,
                            "Wisdom":  47
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-cyclops",
@@ -4169,7 +4763,9 @@
                            "Endurance":  25,
                            "Hype":  66,
                            "Stealth":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-cyclops-spirit",
@@ -4183,7 +4779,9 @@
                            "Skill":  67,
                            "Speed":  35,
                            "Endurance":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-phoenix",
@@ -4197,7 +4795,9 @@
                            "Precision":  24,
                            "Style":  39,
                            "Endurance":  96
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-phoenix",
@@ -4211,7 +4811,9 @@
                            "Wisdom":  88,
                            "Style":  56,
                            "Skill":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-sphinx",
@@ -4225,7 +4827,9 @@
                            "Wisdom":  45,
                            "Energy":  32,
                            "Fear":  46
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-wizard",
@@ -4239,7 +4843,9 @@
                            "Speed":  30,
                            "Luck":  32,
                            "Stealth":  2
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "diamond-monk-keeper",
@@ -4253,7 +4859,9 @@
                            "Focus":  47,
                            "Energy":  98,
                            "Agility":  47
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-goblin-caller",
@@ -4267,7 +4875,9 @@
                            "Rage":  9,
                            "Magic":  43,
                            "Wisdom":  49
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-monk",
@@ -4281,7 +4891,9 @@
                            "Rage":  65,
                            "Charm":  48,
                            "Endurance":  35
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-shaman-blade",
@@ -4295,7 +4907,9 @@
                            "Fear":  60,
                            "Luck":  20,
                            "Strength":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-reaper",
@@ -4309,7 +4923,9 @@
                            "Skill":  20,
                            "Style":  7,
                            "Wisdom":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-berserker-spirit",
@@ -4323,7 +4939,9 @@
                            "Precision":  23,
                            "Agility":  1,
                            "Wisdom":  91
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-monk-elite",
@@ -4337,7 +4955,9 @@
                            "Endurance":  67,
                            "Rage":  44,
                            "Style":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-alchemist-alpha",
@@ -4351,7 +4971,9 @@
                            "Endurance":  5,
                            "Focus":  46,
                            "Rage":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-wolf",
@@ -4365,7 +4987,9 @@
                            "Agility":  68,
                            "Chaos":  20,
                            "Charm":  50
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-berserker",
@@ -4379,7 +5003,9 @@
                            "Agility":  96,
                            "Fear":  28,
                            "Style":  43
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-hawk-seeker",
@@ -4393,7 +5019,9 @@
                            "Fear":  77,
                            "Precision":  87,
                            "Stealth":  60
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-titan",
@@ -4407,7 +5035,9 @@
                            "Style":  86,
                            "Endurance":  21,
                            "Focus":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-raptor",
@@ -4421,7 +5051,9 @@
                            "Speed":  98,
                            "Wisdom":  47,
                            "Stealth":  74
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-titan-mk-ii",
@@ -4435,7 +5067,9 @@
                            "Endurance":  64,
                            "Fear":  11,
                            "Magic":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-monk",
@@ -4449,7 +5083,9 @@
                            "Hype":  98,
                            "Chaos":  89,
                            "Skill":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-knight-queen",
@@ -4463,7 +5099,9 @@
                            "Agility":  19,
                            "Precision":  17,
                            "Endurance":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-shaman",
@@ -4477,7 +5115,9 @@
                            "Endurance":  46,
                            "Luck":  48,
                            "Precision":  66
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-hawk",
@@ -4491,7 +5131,9 @@
                            "Control":  25,
                            "Focus":  38,
                            "Rage":  64
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-engineer",
@@ -4505,7 +5147,9 @@
                            "Control":  96,
                            "Precision":  90,
                            "Stealth":  15
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-lion",
@@ -4519,7 +5163,9 @@
                            "Strength":  81,
                            "Focus":  55,
                            "Chaos":  80
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-assassin",
@@ -4533,7 +5179,9 @@
                            "Style":  21,
                            "Defense":  2,
                            "Skill":  14
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-shaman-striker",
@@ -4547,7 +5195,9 @@
                            "Focus":  48,
                            "Skill":  65,
                            "Strength":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-demon-seeker",
@@ -4561,7 +5211,9 @@
                            "Precision":  100,
                            "Stealth":  81,
                            "Skill":  72
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-wolf-runner",
@@ -4575,7 +5227,9 @@
                            "Energy":  44,
                            "Focus":  96,
                            "Style":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-hawk",
@@ -4589,7 +5243,9 @@
                            "Charm":  11,
                            "Hype":  47,
                            "Precision":  38
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-sentinel-rider",
@@ -4603,7 +5259,9 @@
                            "Style":  89,
                            "Stealth":  81,
                            "Fear":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-jester",
@@ -4617,7 +5275,9 @@
                            "Wisdom":  18,
                            "Defense":  63,
                            "Skill":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-samurai",
@@ -4631,7 +5291,9 @@
                            "Strength":  75,
                            "Charm":  12,
                            "Hype":  80
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "radiant-nomad",
@@ -4645,7 +5307,9 @@
                            "Agility":  84,
                            "Rage":  70,
                            "Hype":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-ranger-elite",
@@ -4659,7 +5323,9 @@
                            "Stealth":  88,
                            "Luck":  67,
                            "Wisdom":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-oracle-rider",
@@ -4673,7 +5339,9 @@
                            "Chaos":  91,
                            "Defense":  58,
                            "Fear":  33
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-champion-alpha",
@@ -4687,7 +5355,9 @@
                            "Chaos":  15,
                            "Hype":  41,
                            "Focus":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-sprite-prime",
@@ -4701,7 +5371,9 @@
                            "Endurance":  95,
                            "Charm":  96,
                            "Wisdom":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-elemental",
@@ -4715,7 +5387,9 @@
                            "Endurance":  94,
                            "Wisdom":  55,
                            "Luck":  86
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-wolf",
@@ -4729,7 +5403,9 @@
                            "Stealth":  61,
                            "Control":  17,
                            "Skill":  94
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-ranger",
@@ -4743,7 +5419,9 @@
                            "Endurance":  35,
                            "Focus":  5,
                            "Strength":  62
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-dragon-core",
@@ -4757,7 +5435,9 @@
                            "Stealth":  92,
                            "Control":  39,
                            "Energy":  53
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-reaper-rider",
@@ -4771,7 +5451,9 @@
                            "Chaos":  31,
                            "Agility":  95,
                            "Wisdom":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-monk",
@@ -4785,7 +5467,9 @@
                            "Precision":  31,
                            "Agility":  57,
                            "Style":  6
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-wizard",
@@ -4799,7 +5483,9 @@
                            "Rage":  96,
                            "Energy":  1,
                            "Hype":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-druid-keeper",
@@ -4813,7 +5499,9 @@
                            "Fear":  43,
                            "Hype":  43,
                            "Rage":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-viper",
@@ -4827,7 +5515,9 @@
                            "Stealth":  17,
                            "Defense":  84,
                            "Fear":  50
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-beast-core",
@@ -4841,7 +5531,9 @@
                            "Focus":  84,
                            "Charm":  76,
                            "Magic":  96
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-sprite",
@@ -4855,7 +5547,9 @@
                            "Defense":  55,
                            "Hype":  1,
                            "Fear":  95
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-shaman-queen",
@@ -4869,7 +5563,9 @@
                            "Agility":  84,
                            "Endurance":  33,
                            "Defense":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-monk-breaker",
@@ -4883,7 +5579,9 @@
                            "Stealth":  69,
                            "Control":  93,
                            "Defense":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-ninja",
@@ -4897,7 +5595,9 @@
                            "Speed":  63,
                            "Control":  81,
                            "Rage":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-wizard-prime",
@@ -4911,7 +5611,9 @@
                            "Chaos":  5,
                            "Luck":  91,
                            "Defense":  37
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-dragon-alpha",
@@ -4925,7 +5627,9 @@
                            "Magic":  47,
                            "Speed":  49,
                            "Luck":  86
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-beast-core",
@@ -4939,7 +5643,9 @@
                            "Luck":  45,
                            "Agility":  30,
                            "Defense":  14
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-pirate-spirit",
@@ -4953,7 +5659,9 @@
                            "Chaos":  46,
                            "Charm":  20,
                            "Defense":  23
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-serpent",
@@ -4967,7 +5675,9 @@
                            "Defense":  52,
                            "Skill":  70,
                            "Control":  88
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-angel",
@@ -4981,7 +5691,9 @@
                            "Hype":  68,
                            "Strength":  10,
                            "Energy":  97
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-warden",
@@ -4995,7 +5707,9 @@
                            "Focus":  49,
                            "Agility":  32,
                            "Fear":  53
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-lion-mk-ii",
@@ -5009,7 +5723,9 @@
                            "Stealth":  52,
                            "Hype":  20,
                            "Focus":  96
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-goblin",
@@ -5023,7 +5739,9 @@
                            "Wisdom":  41,
                            "Charm":  88,
                            "Magic":  54
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-cyclops-master",
@@ -5037,7 +5755,9 @@
                            "Fear":  95,
                            "Endurance":  53,
                            "Focus":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-bandit-king",
@@ -5051,7 +5771,9 @@
                            "Energy":  53,
                            "Control":  37,
                            "Strength":  59
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-reaper",
@@ -5065,7 +5787,9 @@
                            "Agility":  99,
                            "Luck":  64,
                            "Energy":  19
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-sentinel-blade",
@@ -5079,7 +5803,9 @@
                            "Endurance":  62,
                            "Agility":  65,
                            "Rage":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-giant",
@@ -5093,7 +5819,9 @@
                            "Charm":  41,
                            "Rage":  88,
                            "Skill":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-druid",
@@ -5107,7 +5835,9 @@
                            "Charm":  44,
                            "Rage":  58,
                            "Precision":  91
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-phoenix",
@@ -5121,7 +5851,9 @@
                            "Luck":  1,
                            "Focus":  99,
                            "Stealth":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-oracle",
@@ -5135,7 +5867,9 @@
                            "Stealth":  39,
                            "Defense":  69,
                            "Chaos":  73
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-bandit",
@@ -5149,7 +5883,9 @@
                            "Focus":  45,
                            "Strength":  84,
                            "Style":  25
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-champion-lord",
@@ -5163,7 +5899,9 @@
                            "Defense":  12,
                            "Style":  50,
                            "Focus":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-serpent",
@@ -5177,7 +5915,9 @@
                            "Agility":  87,
                            "Stealth":  97,
                            "Hype":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-golem-breaker",
@@ -5191,7 +5931,9 @@
                            "Speed":  94,
                            "Style":  59,
                            "Strength":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-ninja",
@@ -5205,7 +5947,9 @@
                            "Charm":  89,
                            "Style":  7,
                            "Chaos":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-guardian-king",
@@ -5219,7 +5963,9 @@
                            "Style":  55,
                            "Rage":  40,
                            "Hype":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-guardian",
@@ -5233,7 +5979,9 @@
                            "Precision":  45,
                            "Stealth":  22,
                            "Chaos":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-dragon-elite",
@@ -5247,7 +5995,9 @@
                            "Control":  79,
                            "Wisdom":  3,
                            "Chaos":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-druid",
@@ -5261,7 +6011,9 @@
                            "Speed":  64,
                            "Style":  1,
                            "Luck":  84
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-sprite",
@@ -5275,7 +6027,9 @@
                            "Speed":  6,
                            "Fear":  75,
                            "Luck":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-assassin",
@@ -5289,7 +6043,9 @@
                            "Stealth":  70,
                            "Precision":  33,
                            "Style":  86
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-ninja-queen",
@@ -5303,7 +6059,9 @@
                            "Charm":  30,
                            "Strength":  0,
                            "Chaos":  59
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-kraken-alpha",
@@ -5317,7 +6075,9 @@
                            "Defense":  48,
                            "Chaos":  18,
                            "Rage":  11
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "omega-warlock",
@@ -5331,7 +6091,9 @@
                            "Defense":  62,
                            "Focus":  27,
                            "Stealth":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-pirate-elite",
@@ -5345,7 +6107,9 @@
                            "Energy":  13,
                            "Skill":  44,
                            "Rage":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-engineer",
@@ -5359,7 +6123,9 @@
                            "Speed":  2,
                            "Focus":  58,
                            "Skill":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-sprite",
@@ -5373,7 +6139,9 @@
                            "Style":  75,
                            "Luck":  59,
                            "Control":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-monk",
@@ -5387,7 +6155,9 @@
                            "Energy":  2,
                            "Luck":  53,
                            "Rage":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cosmic-falcon",
@@ -5401,7 +6171,9 @@
                            "Endurance":  64,
                            "Magic":  95,
                            "Control":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-reaper-elite",
@@ -5415,7 +6187,9 @@
                            "Endurance":  24,
                            "Rage":  71,
                            "Fear":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-sphinx-blade",
@@ -5429,7 +6203,9 @@
                            "Precision":  2,
                            "Charm":  55,
                            "Hype":  40
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-sprite-rider",
@@ -5443,7 +6219,9 @@
                            "Energy":  19,
                            "Endurance":  77,
                            "Stealth":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-champion",
@@ -5457,7 +6235,9 @@
                            "Control":  82,
                            "Agility":  24,
                            "Stealth":  85
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-warden-keeper",
@@ -5471,7 +6251,9 @@
                            "Wisdom":  32,
                            "Skill":  61,
                            "Stealth":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rapid-druid-master",
@@ -5485,7 +6267,9 @@
                            "Control":  87,
                            "Agility":  65,
                            "Hype":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-wizard-rider",
@@ -5499,7 +6283,9 @@
                            "Control":  49,
                            "Focus":  55,
                            "Skill":  27
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "electric-druid-king",
@@ -5513,7 +6299,9 @@
                            "Rage":  42,
                            "Strength":  37,
                            "Chaos":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-sphinx-prime",
@@ -5527,7 +6315,9 @@
                            "Focus":  43,
                            "Agility":  18,
                            "Stealth":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-viper",
@@ -5541,7 +6331,9 @@
                            "Magic":  55,
                            "Endurance":  93,
                            "Energy":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-wizard",
@@ -5555,7 +6347,9 @@
                            "Control":  80,
                            "Chaos":  80,
                            "Luck":  75
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-serpent-king",
@@ -5569,7 +6363,9 @@
                            "Energy":  50,
                            "Magic":  68,
                            "Speed":  30
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-reaper",
@@ -5583,7 +6379,9 @@
                            "Agility":  97,
                            "Control":  4,
                            "Wisdom":  87
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-ranger",
@@ -5597,7 +6395,9 @@
                            "Stealth":  20,
                            "Focus":  70,
                            "Strength":  51
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-warden",
@@ -5611,7 +6411,9 @@
                            "Agility":  40,
                            "Magic":  61,
                            "Skill":  57
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-monk-spirit",
@@ -5625,7 +6427,9 @@
                            "Strength":  32,
                            "Endurance":  65,
                            "Luck":  59
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-cyclops-king",
@@ -5639,7 +6443,9 @@
                            "Endurance":  51,
                            "Defense":  12,
                            "Agility":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-jester-keeper",
@@ -5653,7 +6459,9 @@
                            "Fear":  91,
                            "Stealth":  10,
                            "Style":  49
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-angel",
@@ -5667,7 +6475,9 @@
                            "Charm":  75,
                            "Magic":  86,
                            "Endurance":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "midnight-dragon",
@@ -5681,7 +6491,9 @@
                            "Stealth":  6,
                            "Magic":  67,
                            "Energy":  70
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-valkyrie-queen",
@@ -5695,7 +6507,9 @@
                            "Endurance":  95,
                            "Agility":  75,
                            "Chaos":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-wizard",
@@ -5709,7 +6523,9 @@
                            "Style":  100,
                            "Magic":  7,
                            "Endurance":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "arcane-ranger",
@@ -5723,7 +6539,9 @@
                            "Rage":  6,
                            "Fear":  7,
                            "Defense":  43
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-knight",
@@ -5737,7 +6555,9 @@
                            "Stealth":  21,
                            "Energy":  37,
                            "Style":  11
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-golem",
@@ -5751,7 +6571,9 @@
                            "Control":  78,
                            "Wisdom":  17,
                            "Speed":  26
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "ancient-griffin-elite",
@@ -5765,7 +6587,9 @@
                            "Stealth":  56,
                            "Wisdom":  38,
                            "Hype":  31
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-specter",
@@ -5779,7 +6603,9 @@
                            "Luck":  24,
                            "Chaos":  61,
                            "Skill":  87
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silver-golem",
@@ -5793,7 +6619,9 @@
                            "Style":  87,
                            "Precision":  56,
                            "Endurance":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-phoenix",
@@ -5807,7 +6635,9 @@
                            "Endurance":  48,
                            "Chaos":  76,
                            "Control":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-viper",
@@ -5821,7 +6651,9 @@
                            "Hype":  74,
                            "Speed":  29,
                            "Skill":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-giant",
@@ -5835,7 +6667,9 @@
                            "Wisdom":  48,
                            "Precision":  34,
                            "Energy":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "glitch-viper",
@@ -5849,7 +6683,9 @@
                            "Focus":  60,
                            "Hype":  73,
                            "Speed":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-reaper-queen",
@@ -5863,7 +6699,9 @@
                            "Magic":  33,
                            "Focus":  30,
                            "Defense":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-nomad",
@@ -5877,7 +6715,9 @@
                            "Strength":  17,
                            "Endurance":  80,
                            "Stealth":  1
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "nova-kraken",
@@ -5891,7 +6731,9 @@
                            "Energy":  28,
                            "Stealth":  21,
                            "Style":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-ranger",
@@ -5905,7 +6747,9 @@
                            "Speed":  71,
                            "Style":  90,
                            "Endurance":  19
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-knight-lord",
@@ -5919,7 +6763,9 @@
                            "Stealth":  61,
                            "Chaos":  60,
                            "Luck":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-reaper-lord",
@@ -5933,7 +6779,9 @@
                            "Precision":  2,
                            "Chaos":  80,
                            "Energy":  56
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-beast-alpha",
@@ -5947,7 +6795,9 @@
                            "Luck":  61,
                            "Energy":  27,
                            "Focus":  26
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-elemental",
@@ -5961,7 +6811,9 @@
                            "Hype":  46,
                            "Speed":  12,
                            "Stealth":  63
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-titan",
@@ -5975,7 +6827,9 @@
                            "Style":  66,
                            "Skill":  76,
                            "Charm":  87
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-jester-keeper",
@@ -5989,7 +6843,9 @@
                            "Strength":  10,
                            "Defense":  79,
                            "Style":  7
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-wolf-rider",
@@ -6003,7 +6859,9 @@
                            "Agility":  11,
                            "Rage":  52,
                            "Style":  83
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "emerald-valkyrie",
@@ -6017,7 +6875,9 @@
                            "Endurance":  9,
                            "Magic":  85,
                            "Chaos":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-lion",
@@ -6031,7 +6891,9 @@
                            "Wisdom":  82,
                            "Energy":  93,
                            "Endurance":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crimson-elemental",
@@ -6045,7 +6907,9 @@
                            "Skill":  9,
                            "Agility":  37,
                            "Chaos":  60
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-guardian-zero",
@@ -6059,7 +6923,9 @@
                            "Luck":  83,
                            "Charm":  13,
                            "Magic":  80
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-nomad-keeper",
@@ -6073,7 +6939,9 @@
                            "Focus":  16,
                            "Defense":  78,
                            "Fear":  19
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-assassin",
@@ -6087,7 +6955,9 @@
                            "Charm":  41,
                            "Wisdom":  78,
                            "Style":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-oracle",
@@ -6101,7 +6971,9 @@
                            "Agility":  48,
                            "Magic":  44,
                            "Charm":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-elemental",
@@ -6115,7 +6987,9 @@
                            "Endurance":  85,
                            "Rage":  38,
                            "Energy":  92
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-sentinel",
@@ -6129,7 +7003,9 @@
                            "Skill":  29,
                            "Hype":  36,
                            "Energy":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-mammoth-seeker",
@@ -6143,7 +7019,9 @@
                            "Control":  47,
                            "Charm":  37,
                            "Precision":  55
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-alchemist-master",
@@ -6157,7 +7035,9 @@
                            "Endurance":  64,
                            "Focus":  86,
                            "Style":  65
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-golem",
@@ -6171,7 +7051,9 @@
                            "Stealth":  11,
                            "Wisdom":  7,
                            "Skill":  33
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "blazing-golem-rider",
@@ -6185,7 +7067,9 @@
                            "Energy":  29,
                            "Strength":  82,
                            "Speed":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-wolf-alpha",
@@ -6199,7 +7083,9 @@
                            "Stealth":  75,
                            "Charm":  18,
                            "Chaos":  98
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "toxic-monk",
@@ -6213,7 +7099,9 @@
                            "Fear":  62,
                            "Strength":  23,
                            "Chaos":  62
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "royal-lion",
@@ -6227,7 +7115,9 @@
                            "Precision":  63,
                            "Defense":  35,
                            "Hype":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-serpent-runner",
@@ -6241,7 +7131,9 @@
                            "Luck":  72,
                            "Focus":  57,
                            "Control":  67
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-lion-caller",
@@ -6255,7 +7147,9 @@
                            "Stealth":  40,
                            "Fear":  32,
                            "Rage":  47
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-giant",
@@ -6269,7 +7163,9 @@
                            "Energy":  40,
                            "Skill":  17,
                            "Endurance":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "obsidian-dragon",
@@ -6283,7 +7179,9 @@
                            "Luck":  31,
                            "Chaos":  31,
                            "Hype":  76
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-goblin",
@@ -6297,7 +7195,9 @@
                            "Wisdom":  13,
                            "Hype":  86,
                            "Magic":  74
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "velvet-ninja",
@@ -6311,7 +7211,9 @@
                            "Focus":  14,
                            "Style":  71,
                            "Agility":  44
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "savage-angel",
@@ -6325,7 +7227,9 @@
                            "Wisdom":  27,
                            "Fear":  48,
                            "Energy":  91
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "solar-oracle-zero",
@@ -6339,7 +7243,9 @@
                            "Chaos":  23,
                            "Speed":  33,
                            "Energy":  2
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-knight-runner",
@@ -6353,7 +7259,9 @@
                            "Style":  6,
                            "Hype":  63,
                            "Control":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "wild-falcon",
@@ -6367,7 +7275,9 @@
                            "Luck":  51,
                            "Wisdom":  43,
                            "Energy":  62
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-phoenix",
@@ -6381,7 +7291,9 @@
                            "Defense":  85,
                            "Stealth":  65,
                            "Precision":  58
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lunar-reaper-keeper",
@@ -6395,7 +7307,9 @@
                            "Precision":  63,
                            "Stealth":  53,
                            "Energy":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-elemental",
@@ -6409,7 +7323,9 @@
                            "Agility":  39,
                            "Defense":  18,
                            "Skill":  55
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-lion-ace",
@@ -6423,7 +7339,9 @@
                            "Focus":  69,
                            "Stealth":  56,
                            "Hype":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-ranger-master",
@@ -6437,7 +7355,9 @@
                            "Fear":  13,
                            "Energy":  75,
                            "Defense":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-wolf",
@@ -6451,7 +7371,9 @@
                            "Energy":  93,
                            "Control":  69,
                            "Chaos":  77
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dawn-giant",
@@ -6465,7 +7387,9 @@
                            "Agility":  39,
                            "Charm":  32,
                            "Stealth":  52
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "pixel-angel",
@@ -6479,7 +7403,9 @@
                            "Defense":  82,
                            "Focus":  5,
                            "Energy":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-golem-zero",
@@ -6493,7 +7419,9 @@
                            "Defense":  65,
                            "Speed":  65,
                            "Focus":  32
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-griffin",
@@ -6507,7 +7435,9 @@
                            "Strength":  80,
                            "Luck":  69,
                            "Rage":  48
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-kraken",
@@ -6521,7 +7451,9 @@
                            "Fear":  71,
                            "Luck":  5,
                            "Speed":  79
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-cyclops-prime",
@@ -6535,7 +7467,9 @@
                            "Hype":  1,
                            "Energy":  57,
                            "Style":  29
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "secret-serpent",
@@ -6549,7 +7483,9 @@
                            "Agility":  80,
                            "Style":  15,
                            "Magic":  78
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "aqua-samurai-caller",
@@ -6563,7 +7499,9 @@
                            "Rage":  88,
                            "Strength":  54,
                            "Speed":  0
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "crystal-pirate-core",
@@ -6577,7 +7515,9 @@
                            "Focus":  12,
                            "Strength":  35,
                            "Control":  27
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-shaman-rider",
@@ -6591,7 +7531,9 @@
                            "Focus":  59,
                            "Luck":  29,
                            "Charm":  11
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frozen-paladin-zero",
@@ -6605,7 +7547,9 @@
                            "Defense":  10,
                            "Style":  89,
                            "Charm":  68
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-jester",
@@ -6619,7 +7563,9 @@
                            "Strength":  50,
                            "Control":  22,
                            "Hype":  20
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-warlock",
@@ -6633,7 +7579,9 @@
                            "Fear":  43,
                            "Precision":  18,
                            "Focus":  69
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "thunder-phoenix",
@@ -6647,7 +7595,9 @@
                            "Skill":  51,
                            "Rage":  13,
                            "Charm":  27
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-griffin-caller",
@@ -6661,7 +7611,9 @@
                            "Wisdom":  78,
                            "Energy":  79,
                            "Precision":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "golden-hunter",
@@ -6675,7 +7627,9 @@
                            "Defense":  67,
                            "Magic":  72,
                            "Hype":  99
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "cyber-alchemist-ace",
@@ -6689,7 +7643,9 @@
                            "Hype":  37,
                            "Magic":  48,
                            "Speed":  60
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "neon-valkyrie-master",
@@ -6703,7 +7659,9 @@
                            "Magic":  58,
                            "Focus":  32,
                            "Chaos":  4
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "dusk-falcon",
@@ -6717,7 +7675,9 @@
                            "Rage":  59,
                            "Precision":  81,
                            "Defense":  54
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "phantom-ninja-master",
@@ -6731,7 +7691,9 @@
                            "Charm":  83,
                            "Skill":  43,
                            "Fear":  92
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-reaper-mk-ii",
@@ -6745,7 +7707,9 @@
                            "Charm":  44,
                            "Chaos":  57,
                            "Agility":  81
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "lucky-ninja",
@@ -6759,7 +7723,9 @@
                            "Wisdom":  32,
                            "Agility":  0,
                            "Focus":  34
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "heavy-ninja-lord",
@@ -6773,7 +7739,9 @@
                            "Endurance":  48,
                            "Speed":  68,
                            "Focus":  8
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-reaper",
@@ -6787,7 +7755,9 @@
                            "Fear":  7,
                            "Endurance":  66,
                            "Precision":  68
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "rogue-oracle",
@@ -6801,7 +7771,9 @@
                            "Precision":  83,
                            "Fear":  56,
                            "Chaos":  46
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "vortex-viper",
@@ -6815,7 +7787,9 @@
                            "Rage":  79,
                            "Control":  37,
                            "Wisdom":  21
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-elemental-prime",
@@ -6829,7 +7803,9 @@
                            "Charm":  100,
                            "Control":  55,
                            "Speed":  5
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-druid",
@@ -6843,7 +7819,9 @@
                            "Control":  17,
                            "Hype":  98,
                            "Stealth":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "silent-paladin",
@@ -6857,7 +7835,9 @@
                            "Stealth":  21,
                            "Rage":  45,
                            "Speed":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "turbo-lion-seeker",
@@ -6871,7 +7851,9 @@
                            "Focus":  100,
                            "Agility":  80,
                            "Control":  18
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "iron-demon-caller",
@@ -6885,7 +7867,9 @@
                            "Style":  75,
                            "Luck":  71,
                            "Chaos":  12
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "storm-sentinel",
@@ -6899,7 +7883,9 @@
                            "Stealth":  75,
                            "Hype":  57,
                            "Focus":  82
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "shadow-wizard-keeper",
@@ -6913,7 +7899,9 @@
                            "Magic":  74,
                            "Agility":  37,
                            "Speed":  13
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "brave-jester-prime",
@@ -6927,7 +7915,9 @@
                            "Chaos":  32,
                            "Stealth":  49,
                            "Hype":  41
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "mystic-serpent-keeper",
@@ -6941,7 +7931,9 @@
                            "Focus":  46,
                            "Control":  54,
                            "Precision":  75
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "frost-goblin-caller",
@@ -6955,7 +7947,9 @@
                            "Control":  45,
                            "Luck":  86,
                            "Magic":  17
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jade-falcon",
@@ -6969,7 +7963,9 @@
                            "Wisdom":  42,
                            "Control":  5,
                            "Agility":  24
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-bandit",
@@ -6983,7 +7979,9 @@
                            "Speed":  76,
                            "Control":  58,
                            "Hype":  42
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "copper-valkyrie-lord",
@@ -6997,7 +7995,9 @@
                            "Luck":  82,
                            "Strength":  11,
                            "Defense":  96
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "jodi-jones",
@@ -7011,7 +8011,9 @@
                            "Ball Skills":  100,
                            "Aura":  100,
                            "Playoff Last Minute Winner":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "koli",
@@ -7025,7 +8027,9 @@
                            "Fake Identity":  54,
                            "Diddy Association":  12,
                            "Gym Stats":  93
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "man-v2",
@@ -7039,7 +8043,9 @@
                            "Hangout Power":  32,
                            "Chat Activity":  36,
                            "Fun Vibes":  90
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "stop-sign",
@@ -7053,7 +8059,9 @@
                            "Stop":  100,
                            "Sign":  90,
                            "Question Mark":  71
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     },
     {
         "id":  "notts-county",
@@ -7067,6 +8075,8 @@
                            "Bottling Promotion":  90,
                            "Wheelbarrow":  74,
                            "Away Attendance":  100
-                       }
+                       },
+        "limitedEdition":  false,
+        "available":  true
     }
 ]

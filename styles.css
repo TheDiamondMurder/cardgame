@@ -302,6 +302,23 @@ h2 {
     box-shadow 160ms ease;
 }
 
+.limited-ribbon {
+  position: absolute;
+  top: 18px;
+  right: -12px;
+  z-index: 2;
+  border: 1px solid rgba(17, 18, 14, 0.28);
+  border-radius: 999px 0 0 999px;
+  background: linear-gradient(135deg, #e9ff70, #ff5ce1);
+  color: #11120e;
+  padding: 7px 12px;
+  font-size: 11px;
+  font-weight: 950;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.24);
+}
+
 .trading-card:hover {
   transform: translateY(-3px) rotate(-0.5deg);
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.36);
@@ -313,6 +330,34 @@ h2 {
 
 .static-card:hover {
   transform: none;
+}
+
+.unobtainable-card {
+  filter: grayscale(1);
+  opacity: 0.58;
+}
+
+.unobtainable-card::after {
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: rgba(17, 18, 14, 0.22);
+  content: "";
+  pointer-events: none;
+}
+
+.unobtainable-card .unobtainable-label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  background: #11120e;
+  color: #f5f5f0;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .trading-card.basic { --edition-color: #d9d9d2; }

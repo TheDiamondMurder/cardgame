@@ -36,6 +36,8 @@ const editionColors = {
   Mythic: "#ff5ce1",
 };
 
+const isAvailable = (card) => card.available !== false;
+
 let cards = [];
 let packs = [];
 let codes = [];
@@ -80,10 +82,14 @@ function countOwned(cardId) {
 
 function renderCardElement(card, options = {}) {
   const owned = countOwned(card.id);
+  const showUnobtainableState = options.showAvailability !== false && !isAvailable(card);
   const cardEl = document.createElement(options.clickable ? "button" : "article");
-  cardEl.className = `trading-card ${card.edition.toLowerCase()} ${options.clickable ? "" : "static-card"}`;
+  cardEl.className = `trading-card ${card.edition.toLowerCase()} ${options.clickable ? "" : "static-card"} ${
+    showUnobtainableState ? "unobtainable-card" : ""
+  }`;
   if (options.clickable) cardEl.type = "button";
   cardEl.innerHTML = `
+    ${card.limitedEdition ? `<div class="limited-ribbon">limited edition</div>` : ""}
     <div class="card-topline">
       <strong>${card.name}</strong>
       <span>${card.power}</span>
@@ -96,6 +102,7 @@ function renderCardElement(card, options = {}) {
         .map(([name, value]) => `<span>${name}: ${value}</span>`)
         .join("")}
     </div>
+    ${showUnobtainableState ? `<div class="unobtainable-label">unobtainable</div>` : ""}
     ${options.showOwned ? `<small>owned x${owned}</small>` : ""}
   `;
   if (options.clickable) cardEl.addEventListener("click", () => openCard(card));
@@ -244,8 +251,8 @@ function pickEdition(odds) {
 }
 
 function pickCardForEdition(edition) {
-  const pool = cards.filter((card) => card.edition === edition);
-  const fallback = cards.filter((card) => card.edition === "Basic");
+  const pool = cards.filter((card) => card.edition === edition && isAvailable(card));
+  const fallback = cards.filter((card) => card.edition === "Basic" && isAvailable(card));
   const choices = pool.length ? pool : fallback;
   return choices[Math.floor(Math.random() * choices.length)];
 }
@@ -291,13 +298,15 @@ function openCard(card) {
   selectedCard = card;
   const owned = countOwned(card.id);
   cardDetail.innerHTML = "";
-  cardDetail.append(renderCardElement(card, { showOwned: true }));
+  cardDetail.append(renderCardElement(card, { showOwned: true, showAvailability: false }));
   const meta = document.createElement("div");
   meta.className = "card-meta";
   meta.innerHTML = `
     <strong>${card.name}</strong>
     <span>${card.edition} / power ${card.power}</span>
     <p>${card.description}</p>
+    ${card.limitedEdition ? `<small>limited edition</small>` : ""}
+    ${!isAvailable(card) ? `<small>unobtainable from packs</small>` : ""}
     <small>sell value: ${card.worth} credits</small>
   `;
   cardDetail.append(meta);
