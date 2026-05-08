@@ -8094,5 +8094,21 @@
                        },
         "limitedEdition":  true,
         "available":  true
+    },
+     {
+        "id":  "emr-222",
+        "name":  "EMR Class 222",
+        "edition":  "Epic",
+        "image":  "assets/generated-card.svg",
+        "power":  72,
+        "worth":  2300,
+        "description":  "Calling at: East Midlands Parkway, oh nvm ive broken down",
+        "attributes":  {
+                           "Speed":  90,
+                           "Comfort":  81,
+                           "Reliability":  63
+                       },
+        "limitedEdition":  true,
+        "available":  false
     }
 ]
