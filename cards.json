@@ -8078,5 +8078,21 @@
                        },
         "limitedEdition":  false,
         "available":  true
+    },
+     {
+        "id":  "emr-810",
+        "name":  "EMR Class 810",
+        "edition":  "Legendary",
+        "image":  "assets/generated-card.svg",
+        "power":  89,
+        "worth":  8220,
+        "description":  "All Nott\u0027s Arent We",
+        "attributes":  {
+                           "Speed":  90,
+                           "Comfort":  95,
+                           "Reliability":  87
+                       },
+        "limitedEdition":  true,
+        "available":  true
     }
 ]
