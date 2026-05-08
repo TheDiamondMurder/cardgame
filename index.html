@@ -52,6 +52,26 @@
           <p class="kicker">inventory</p>
           <h2>your cards</h2>
         </div>
+        <div class="filters" aria-label="Inventory sorting and filtering">
+          <input id="inventory-search" type="search" placeholder="Search inventory" />
+          <select id="inventory-edition" aria-label="Filter inventory by edition">
+            <option value="All">All editions</option>
+            <option value="Basic">Basic</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Rare">Rare</option>
+            <option value="Epic">Epic</option>
+            <option value="Legendary">Legendary</option>
+            <option value="Mythic">Mythic</option>
+          </select>
+          <select id="inventory-sort" aria-label="Sort inventory">
+            <option value="owned-desc">Most owned</option>
+            <option value="name-asc">Name A-Z</option>
+            <option value="power-desc">Highest power</option>
+            <option value="power-asc">Lowest power</option>
+            <option value="worth-desc">Highest worth</option>
+            <option value="edition">Edition</option>
+          </select>
+        </div>
         <div class="cards-grid" id="inventory-grid"></div>
       </section>
 
@@ -60,7 +80,38 @@
           <p class="kicker">catalog</p>
           <h2>all cards</h2>
         </div>
+        <div class="filters" aria-label="Catalog sorting and filtering">
+          <input id="catalog-search" type="search" placeholder="Search catalog" />
+          <select id="catalog-edition" aria-label="Filter catalog by edition">
+            <option value="All">All editions</option>
+            <option value="Basic">Basic</option>
+            <option value="Uncommon">Uncommon</option>
+            <option value="Rare">Rare</option>
+            <option value="Epic">Epic</option>
+            <option value="Legendary">Legendary</option>
+            <option value="Mythic">Mythic</option>
+          </select>
+          <select id="catalog-sort" aria-label="Sort catalog">
+            <option value="name-asc">Name A-Z</option>
+            <option value="power-desc">Highest power</option>
+            <option value="power-asc">Lowest power</option>
+            <option value="worth-desc">Highest worth</option>
+            <option value="edition">Edition</option>
+          </select>
+        </div>
         <div class="cards-grid" id="catalog-grid"></div>
+      </section>
+
+      <section class="redeem-box" aria-labelledby="redeem-title">
+        <div>
+          <p class="kicker">redeem</p>
+          <h2 id="redeem-title">code drop</h2>
+        </div>
+        <form id="redeem-form" class="redeem-form">
+          <input id="redeem-code" type="text" placeholder="Enter code" autocomplete="off" />
+          <button class="button button-light" type="submit">Redeem</button>
+        </form>
+        <p id="redeem-message" class="redeem-message" role="status"></p>
       </section>
     </main>
 

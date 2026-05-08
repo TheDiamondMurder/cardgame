@@ -7003,7 +7003,7 @@
         "id":  "jodi-jones",
         "name":  "Jodi Jones",
         "edition":  "Mythic",
-        "image":  "assets/generated-card.svg",
+        "image":  "assets/jodi.svg",
         "power":  100,
         "worth":  2500,
         "description":  "YOU\u0027VE GOT THE POWER TO KNOWW, YOU\u0027RE INDESTRUCTIBLE, ALWAYS BELIEVE IN, JODI JONES. ALWAYS BELIEVE IN YOUR SOUL",
@@ -7020,7 +7020,7 @@
         "image":  "assets/generated-card.svg",
         "power":  90,
         "worth":  321,
-        "description":  "skippe this shqipe that",
+        "description":  "shqipe this shqipe that",
         "attributes":  {
                            "Fake Identity":  54,
                            "Diddy Association":  12,

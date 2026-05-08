@@ -5,6 +5,15 @@ const packShop = document.querySelector("#pack-shop");
 const ownedPacks = document.querySelector("#owned-packs");
 const inventoryGrid = document.querySelector("#inventory-grid");
 const catalogGrid = document.querySelector("#catalog-grid");
+const inventorySearch = document.querySelector("#inventory-search");
+const inventoryEdition = document.querySelector("#inventory-edition");
+const inventorySort = document.querySelector("#inventory-sort");
+const catalogSearch = document.querySelector("#catalog-search");
+const catalogEdition = document.querySelector("#catalog-edition");
+const catalogSort = document.querySelector("#catalog-sort");
+const redeemForm = document.querySelector("#redeem-form");
+const redeemCode = document.querySelector("#redeem-code");
+const redeemMessage = document.querySelector("#redeem-message");
 const cardDialog = document.querySelector("#card-dialog");
 const cardDetail = document.querySelector("#card-detail");
 const closeCard = document.querySelector("#close-card");
@@ -29,9 +38,11 @@ const editionColors = {
 
 let cards = [];
 let packs = [];
+let codes = [];
 let selectedCard = null;
 let revealQueue = [];
 let revealIndex = 0;
+let openingPhase = "sealed";
 let state = loadState();
 
 function loadState() {
@@ -39,10 +50,12 @@ function loadState() {
     credits: 100,
     inventory: [],
     packs: [],
+    redeemedCodes: [],
   };
 }
 
 function saveState() {
+  state.redeemedCodes ||= [];
   localStorage.setItem(storageKey, JSON.stringify(state));
 }
 
@@ -67,9 +80,9 @@ function countOwned(cardId) {
 
 function renderCardElement(card, options = {}) {
   const owned = countOwned(card.id);
-  const cardEl = document.createElement("button");
-  cardEl.className = `trading-card ${card.edition.toLowerCase()}`;
-  cardEl.type = "button";
+  const cardEl = document.createElement(options.clickable ? "button" : "article");
+  cardEl.className = `trading-card ${card.edition.toLowerCase()} ${options.clickable ? "" : "static-card"}`;
+  if (options.clickable) cardEl.type = "button";
   cardEl.innerHTML = `
     <div class="card-topline">
       <strong>${card.name}</strong>
@@ -85,22 +98,73 @@ function renderCardElement(card, options = {}) {
     </div>
     ${options.showOwned ? `<small>owned x${owned}</small>` : ""}
   `;
-  cardEl.addEventListener("click", () => openCard(card));
+  if (options.clickable) cardEl.addEventListener("click", () => openCard(card));
   return cardEl;
 }
 
+function editionRank(edition) {
+  return ["Basic", "Uncommon", "Rare", "Epic", "Legendary", "Mythic"].indexOf(edition);
+}
+
+function getControls(kind) {
+  return kind === "inventory"
+    ? { search: inventorySearch.value, edition: inventoryEdition.value, sort: inventorySort.value }
+    : { search: catalogSearch.value, edition: catalogEdition.value, sort: catalogSort.value };
+}
+
+function applyCardFilters(list, kind) {
+  const controls = getControls(kind);
+  const query = controls.search.trim().toLowerCase();
+  return list
+    .filter((card) => {
+      const matchesEdition = controls.edition === "All" || card.edition === controls.edition;
+      const matchesSearch =
+        !query ||
+        card.name.toLowerCase().includes(query) ||
+        card.description.toLowerCase().includes(query) ||
+        Object.keys(card.attributes).some((attribute) => attribute.toLowerCase().includes(query));
+      return matchesEdition && matchesSearch;
+    })
+    .sort((a, b) => {
+      switch (controls.sort) {
+        case "power-desc":
+          return b.power - a.power;
+        case "power-asc":
+          return a.power - b.power;
+        case "worth-desc":
+          return b.worth - a.worth;
+        case "edition":
+          return editionRank(b.edition) - editionRank(a.edition) || a.name.localeCompare(b.name);
+        case "owned-desc":
+          return countOwned(b.id) - countOwned(a.id) || a.name.localeCompare(b.name);
+        default:
+          return a.name.localeCompare(b.name);
+      }
+    });
+}
+
 function renderCatalog() {
-  catalogGrid.replaceChildren(...cards.map((card) => renderCardElement(card, { showOwned: true })));
+  const filteredCards = applyCardFilters(cards, "catalog");
+  if (!filteredCards.length) {
+    catalogGrid.innerHTML = `<p class="empty">No catalog cards match that.</p>`;
+    return;
+  }
+  catalogGrid.replaceChildren(...filteredCards.map((card) => renderCardElement(card, { showOwned: true })));
 }
 
 function renderInventory() {
   const uniqueCards = [...new Set(state.inventory)].map(getCard).filter(Boolean);
+  const filteredCards = applyCardFilters(uniqueCards, "inventory");
   if (!uniqueCards.length) {
     inventoryGrid.innerHTML = `<p class="empty">No cards yet. Buy a pack.</p>`;
     return;
   }
+  if (!filteredCards.length) {
+    inventoryGrid.innerHTML = `<p class="empty">No owned cards match that.</p>`;
+    return;
+  }
   inventoryGrid.replaceChildren(
-    ...uniqueCards.map((card) => renderCardElement(card, { showOwned: true })),
+    ...filteredCards.map((card) => renderCardElement(card, { showOwned: true, clickable: true })),
   );
 }
 
@@ -195,6 +259,7 @@ function openPack(pack) {
     return pickCardForEdition(edition);
   });
   revealIndex = 0;
+  openingPhase = "sealed";
   revealQueue.forEach((card) => state.inventory.push(card.id));
   updateAll();
   openingDialog.showModal();
@@ -202,11 +267,22 @@ function openPack(pack) {
 }
 
 function renderReveal() {
+  if (openingPhase === "sealed") {
+    packOpening.innerHTML = `
+      <div class="sealed-pack">
+        <div class="pack-shine"></div>
+        <strong>jakublabs.xyz</strong>
+        <span>sealed pack</span>
+      </div>
+    `;
+    nextReveal.textContent = "Open Pack";
+    return;
+  }
   const card = revealQueue[revealIndex];
   packOpening.innerHTML = "";
   const wrapper = document.createElement("div");
   wrapper.className = "reveal-wrap";
-  wrapper.append(renderCardElement(card));
+  wrapper.append(renderCardElement(card, { showOwned: true }));
   packOpening.append(wrapper);
   nextReveal.textContent = revealIndex === revealQueue.length - 1 ? "Done" : "Next Card";
 }
@@ -236,46 +312,104 @@ function sellSelectedCard() {
   state.inventory.splice(index, 1);
   state.credits += selectedCard.worth;
   updateAll();
-  openCard(selectedCard);
+  cardDialog.close();
+  selectedCard = null;
 }
 
 function drawRenderedCard(card) {
   const ctx = renderCanvas.getContext("2d");
   const color = editionColors[card.edition];
-  ctx.fillStyle = "#111113";
+  ctx.fillStyle = "#030303";
   ctx.fillRect(0, 0, renderCanvas.width, renderCanvas.height);
-  ctx.fillStyle = color;
-  ctx.fillRect(40, 40, 820, 1180);
+  const gradient = ctx.createRadialGradient(120, 120, 30, 280, 360, 980);
+  gradient.addColorStop(0, "rgba(233, 255, 112, 0.18)");
+  gradient.addColorStop(0.42, "rgba(255, 255, 255, 0.04)");
+  gradient.addColorStop(1, "rgba(3, 3, 3, 1)");
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, renderCanvas.width, renderCanvas.height);
+  ctx.strokeStyle = "rgba(255,255,255,0.07)";
+  ctx.lineWidth = 1;
+  for (let x = 0; x <= renderCanvas.width; x += 72) {
+    ctx.beginPath();
+    ctx.moveTo(x, 0);
+    ctx.lineTo(x, renderCanvas.height);
+    ctx.stroke();
+  }
+  for (let y = 0; y <= renderCanvas.height; y += 72) {
+    ctx.beginPath();
+    ctx.moveTo(0, y);
+    ctx.lineTo(renderCanvas.width, y);
+    ctx.stroke();
+  }
+
   ctx.fillStyle = "#f5f5f0";
-  ctx.fillRect(74, 74, 752, 1112);
+  ctx.textAlign = "center";
+  ctx.font = "900 86px Inter, Arial, sans-serif";
+  ctx.fillText("I own:", renderCanvas.width / 2, 136);
+
+  const cardX = 140;
+  const cardY = 210;
+  const cardW = 620;
+  const cardH = 870;
+  const pad = 28;
+  ctx.fillStyle = color;
+  roundRect(ctx, cardX, cardY, cardW, cardH, 30);
+  ctx.fill();
+  ctx.fillStyle = "#f5f5f0";
+  roundRect(ctx, cardX + 24, cardY + 24, cardW - 48, cardH - 48, 22);
+  ctx.fill();
   ctx.fillStyle = "#111113";
-  ctx.fillRect(104, 104, 692, 440);
+  roundRect(ctx, cardX + pad + 14, cardY + pad + 14, cardW - (pad + 14) * 2, 310, 16);
+  ctx.fill();
 
   const image = new Image();
   image.addEventListener("load", () => {
-    ctx.drawImage(image, 104, 104, 692, 440);
+    ctx.drawImage(image, cardX + pad + 14, cardY + pad + 14, cardW - (pad + 14) * 2, 310);
     ctx.fillStyle = "#111113";
-    ctx.font = "900 64px Inter, Arial, sans-serif";
-    ctx.fillText(card.name, 104, 640);
-    ctx.font = "800 42px Inter, Arial, sans-serif";
-    ctx.fillText(`${card.edition} / ${card.power} power`, 104, 700);
-    ctx.font = "700 34px Inter, Arial, sans-serif";
-    wrapCanvasText(ctx, card.description, 104, 790, 680, 44);
+    ctx.textAlign = "left";
+    ctx.font = "900 44px Inter, Arial, sans-serif";
+    wrapCanvasText(ctx, card.name, cardX + 46, cardY + 420, cardW - 140, 48);
+    ctx.textAlign = "center";
+    ctx.fillStyle = color;
+    ctx.beginPath();
+    ctx.arc(cardX + cardW - 72, cardY + 414, 36, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.fillStyle = "#111113";
+    ctx.font = "900 28px Inter, Arial, sans-serif";
+    ctx.fillText(card.power, cardX + cardW - 72, cardY + 424);
+    ctx.textAlign = "left";
     ctx.font = "800 30px Inter, Arial, sans-serif";
-    let y = 980;
+    ctx.fillText(`${card.edition} / ${card.power} power`, cardX + 46, cardY + 510);
+    ctx.font = "700 24px Inter, Arial, sans-serif";
+    wrapCanvasText(ctx, card.description, cardX + 46, cardY + 585, cardW - 92, 32);
+    ctx.font = "800 22px Inter, Arial, sans-serif";
+    let y = cardY + 745;
     Object.entries(card.attributes).forEach(([name, value]) => {
-      ctx.fillText(`${name.toUpperCase()} ${value}`, 104, y);
-      y += 42;
+      ctx.fillText(`${name.toUpperCase()} ${value}`, cardX + 46, y);
+      y += 30;
     });
     ctx.textAlign = "right";
-    ctx.fillText("jakublabs.xyz", 792, 1140);
-    ctx.textAlign = "left";
+    ctx.fillText("jakublabs.xyz", cardX + cardW - 46, cardY + cardH - 48);
+    ctx.textAlign = "center";
+    ctx.fillStyle = "#a6a6a0";
+    ctx.font = "800 34px Inter, Arial, sans-serif";
+    ctx.fillText("certificate of ownership", renderCanvas.width / 2, 1176);
     const link = document.createElement("a");
     link.href = renderCanvas.toDataURL("image/png");
     link.download = `${card.id}.png`;
     link.click();
   });
   image.src = card.image;
+}
+
+function roundRect(ctx, x, y, width, height, radius) {
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.arcTo(x + width, y, x + width, y + height, radius);
+  ctx.arcTo(x + width, y + height, x, y + height, radius);
+  ctx.arcTo(x, y + height, x, y, radius);
+  ctx.arcTo(x, y, x + width, y, radius);
+  ctx.closePath();
 }
 
 function wrapCanvasText(ctx, text, x, y, maxWidth, lineHeight) {
@@ -301,6 +435,40 @@ function updateAll() {
   renderOwnedPacks();
 }
 
+function normalizeCode(code) {
+  return code.trim().toUpperCase();
+}
+
+function redeemEnteredCode(event) {
+  event.preventDefault();
+  state.redeemedCodes ||= [];
+  const entered = normalizeCode(redeemCode.value);
+  if (!entered) {
+    redeemMessage.textContent = "Enter a code first.";
+    return;
+  }
+  const code = codes.find((item) => normalizeCode(item.code || item.id || "") === entered);
+  if (!code) {
+    redeemMessage.textContent = "That code does not exist.";
+    return;
+  }
+  const codeId = normalizeCode(code.code || code.id);
+  if (state.redeemedCodes.includes(codeId)) {
+    redeemMessage.textContent = "You already used that code.";
+    return;
+  }
+  const credits = Number(code.credits || 0);
+  if (!credits) {
+    redeemMessage.textContent = "That code is not set up yet.";
+    return;
+  }
+  state.credits += credits;
+  state.redeemedCodes.push(codeId);
+  redeemCode.value = "";
+  redeemMessage.textContent = `Redeemed ${credits.toLocaleString()} credits.`;
+  updateAll();
+}
+
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
     tabs.forEach((item) => item.classList.remove("active"));
@@ -314,6 +482,11 @@ closeCard.addEventListener("click", () => cardDialog.close());
 sellCard.addEventListener("click", sellSelectedCard);
 renderCard.addEventListener("click", () => selectedCard && drawRenderedCard(selectedCard));
 nextReveal.addEventListener("click", () => {
+  if (openingPhase === "sealed") {
+    openingPhase = "revealing";
+    renderReveal();
+    return;
+  }
   revealIndex += 1;
   if (revealIndex >= revealQueue.length) {
     openingDialog.close();
@@ -321,11 +494,19 @@ nextReveal.addEventListener("click", () => {
   }
   renderReveal();
 });
+redeemForm.addEventListener("submit", redeemEnteredCode);
+[inventorySearch, inventoryEdition, inventorySort].forEach((control) => control.addEventListener("input", renderInventory));
+[catalogSearch, catalogEdition, catalogSort].forEach((control) => control.addEventListener("input", renderCatalog));
 
-Promise.all([fetch("cards.json").then((res) => res.json()), fetch("packs.json").then((res) => res.json())])
-  .then(([cardsData, packsData]) => {
+Promise.all([
+  fetch("cards.json").then((res) => res.json()),
+  fetch("packs.json").then((res) => res.json()),
+  fetch("codes.json").then((res) => res.json()).catch(() => []),
+])
+  .then(([cardsData, packsData, codesData]) => {
     cards = cardsData;
     packs = packsData;
+    codes = Array.isArray(codesData) ? codesData : [];
     renderPackShop();
     updateAll();
   })
