@@ -1,0 +1,128 @@
+[
+  {
+    "id": "basic-pack",
+    "name": "Basic Pack",
+    "cost": 20,
+    "cards": 5,
+    "odds": {
+      "Basic": 80,
+      "Uncommon": 13,
+      "Rare": 6,
+      "Epic": 0.5,
+      "Legendary": 0.4,
+      "Mythic": 0.1
+    }
+  },
+  {
+    "id": "advanced-pack",
+    "name": "Advanced Pack",
+    "cost": 50,
+    "cards": 5,
+    "odds": {
+      "Basic": 61.8,
+      "Uncommon": 25,
+      "Rare": 10,
+      "Epic": 2,
+      "Legendary": 1,
+      "Mythic": 0.2
+    }
+  },
+  {
+    "id": "faradvanced-pack",
+    "name": "Far Advanced Pack",
+    "cost": 75,
+    "cards": 5,
+    "odds": {
+      "Basic": 36,
+      "Uncommon": 35,
+      "Rare": 20,
+      "Epic": 5,
+      "Legendary": 3,
+      "Mythic": 1
+    }
+  },
+  {
+    "id": "super-pack",
+    "name": "Super Pack",
+    "cost": 100,
+    "cards": 5,
+    "odds": {
+      "Basic": 9,
+      "Uncommon": 20,
+      "Rare": 50,
+      "Epic": 15,
+      "Legendary": 5,
+      "Mythic": 1
+    }
+  },
+  {
+    "id": "dynamo-pack",
+    "name": "Dynamo Pack",
+    "cost": 200,
+    "cards": 5,
+    "odds": {
+      "Basic": 4,
+      "Uncommon": 20,
+      "Rare": 20,
+      "Epic": 45,
+      "Legendary": 10,
+      "Mythic": 1
+    }
+  },
+  {
+    "id": "master-pack",
+    "name": "Master Pack",
+    "cost": 500,
+    "cards": 5,
+    "odds": {
+      "Basic": 6,
+      "Uncommon": 4,
+      "Rare": 4,
+      "Epic": 75,
+      "Legendary": 10,
+      "Mythic": 1
+    }
+  },
+  {
+    "id": "booster-pack",
+    "name": "Booster Pack",
+    "cost": 500,
+    "cards": 12,
+    "odds": {
+      "Basic": 9.9,
+      "Uncommon": 20,
+      "Rare": 50,
+      "Epic": 15,
+      "Legendary": 5,
+      "Mythic": 0.1
+    }
+  },
+  {
+    "id": "jakub-special",
+    "name": "Jakub Special",
+    "cost": 1000,
+    "cards": 5,
+    "odds": {
+      "Basic": 0,
+      "Uncommon": 0,
+      "Rare": 19,
+      "Epic": 50,
+      "Legendary": 30,
+      "Mythic": 1
+    }
+  },
+  {
+    "id": "mythical-pack",
+    "name": "Mythical Pack",
+    "cost": 10000,
+    "cards": 1,
+    "odds": {
+      "Basic": 0,
+      "Uncommon": 0,
+      "Rare": 0,
+      "Epic": 0,
+      "Legendary": 0,
+      "Mythic": 100
+    }
+  }
+]

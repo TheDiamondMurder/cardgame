@@ -1,0 +1,427 @@
+:root {
+  color-scheme: dark;
+  --bg: #030303;
+  --surface: rgba(10, 10, 11, 0.84);
+  --line: rgba(255, 255, 255, 0.12);
+  --text: #f5f5f0;
+  --muted: #a6a6a0;
+  --signal: #e9ff70;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--bg);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background:
+    linear-gradient(115deg, rgba(233, 255, 112, 0.08), transparent 28rem),
+    linear-gradient(245deg, rgba(255, 255, 255, 0.06), transparent 34rem),
+    var(--bg);
+  color: var(--text);
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  content: "";
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(to bottom, #000, transparent 75%);
+}
+
+.cards-page {
+  position: relative;
+  z-index: 1;
+  width: min(1180px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: clamp(28px, 5vw, 56px) 0 64px;
+}
+
+.hero {
+  display: grid;
+  justify-items: center;
+  padding: 32px 0 42px;
+  text-align: center;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 42px;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 760;
+}
+
+.brand-mark {
+  width: 17px;
+  height: 17px;
+  border: 2px solid var(--text);
+  border-radius: 50%;
+  box-shadow: inset 6px 0 0 var(--signal);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 820;
+  line-height: 0.9;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: clamp(64px, 12vw, 148px);
+}
+
+h2 {
+  font-size: clamp(38px, 7vw, 76px);
+}
+
+.lede {
+  max-width: 720px;
+  margin: 24px auto 0;
+  color: var(--muted);
+  font-size: clamp(18px, 2.2vw, 26px);
+  line-height: 1.22;
+}
+
+.wallet,
+.tabs,
+.panel,
+.modal {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.045), transparent 70%),
+    var(--surface);
+}
+
+.wallet {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 14px;
+  padding: 18px;
+}
+
+.wallet div {
+  display: grid;
+  gap: 6px;
+}
+
+.wallet span,
+.kicker,
+.card-topline span,
+.edition {
+  color: var(--signal);
+  font-size: 12px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+
+.wallet strong {
+  font-size: clamp(30px, 5vw, 58px);
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 14px;
+  padding: 10px;
+}
+
+.tab,
+.button,
+.trading-card,
+.close {
+  border: 0;
+  cursor: pointer;
+  font: inherit;
+}
+
+.tab {
+  min-height: 42px;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  padding: 0 16px;
+  font-weight: 760;
+}
+
+.tab.active {
+  background: #f5f7e9;
+  color: #11120e;
+}
+
+.panel {
+  display: none;
+  padding: clamp(18px, 4vw, 34px);
+}
+
+.panel.active {
+  display: grid;
+  gap: 22px;
+}
+
+.section-heading {
+  display: grid;
+  gap: 12px;
+}
+
+.pack-grid,
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.pack-card,
+.owned-pack {
+  display: grid;
+  gap: 12px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 18px;
+}
+
+.pack-card span {
+  color: var(--signal);
+  font-weight: 820;
+}
+
+.odds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.odds small,
+.owned-pack span,
+.empty {
+  color: var(--muted);
+}
+
+.owned-packs {
+  display: grid;
+  gap: 10px;
+}
+
+.owned-pack {
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 40px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: 760;
+}
+
+.button-light {
+  border: 1px solid #eff2d6;
+  background: #f5f7e9;
+  color: #11120e;
+}
+
+.button-dark {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text);
+}
+
+.trading-card {
+  display: grid;
+  gap: 10px;
+  min-height: 430px;
+  border: 5px solid var(--edition-color, #d9d9d2);
+  border-radius: 18px;
+  background: #f5f5f0;
+  color: #11120e;
+  padding: 14px;
+  text-align: left;
+  box-shadow: 0 22px 70px rgba(0, 0, 0, 0.28);
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.trading-card:hover {
+  transform: translateY(-3px) rotate(-0.5deg);
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.36);
+}
+
+.trading-card.basic { --edition-color: #d9d9d2; }
+.trading-card.uncommon { --edition-color: #80ffaa; }
+.trading-card.rare { --edition-color: #7fb7ff; }
+.trading-card.epic { --edition-color: #d78cff; }
+.trading-card.legendary { --edition-color: #ffd36b; }
+.trading-card.mythic { --edition-color: #ff5ce1; }
+
+.card-topline {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.card-topline strong {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.card-topline span {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 999px;
+  background: #11120e;
+}
+
+.card-art {
+  overflow: hidden;
+  border: 3px solid #11120e;
+  border-radius: 12px;
+  background: #11120e;
+}
+
+.card-art img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1.4;
+  object-fit: cover;
+}
+
+.edition {
+  color: #11120e;
+}
+
+.trading-card p {
+  margin: 0;
+  line-height: 1.25;
+}
+
+.attributes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: auto;
+}
+
+.attributes span,
+.trading-card small {
+  border-radius: 999px;
+  background: rgba(17, 18, 14, 0.09);
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: 760;
+}
+
+.modal {
+  width: min(760px, calc(100% - 28px));
+  color: var(--text);
+  padding: 24px;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0, 0.78);
+}
+
+.close {
+  float: right;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  width: 36px;
+  height: 36px;
+}
+
+#card-detail {
+  display: grid;
+  grid-template-columns: minmax(220px, 320px) 1fr;
+  gap: 18px;
+  align-items: start;
+}
+
+.card-meta {
+  display: grid;
+  gap: 12px;
+}
+
+.modal-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.opening-modal {
+  text-align: center;
+}
+
+.pack-opening {
+  display: grid;
+  place-items: center;
+  min-height: 500px;
+}
+
+.reveal-wrap {
+  width: min(320px, 100%);
+  animation: revealCard 700ms ease both;
+}
+
+@keyframes revealCard {
+  from {
+    opacity: 0;
+    transform: translateY(40px) rotateY(80deg) scale(0.86);
+  }
+}
+
+@media (max-width: 900px) {
+  .pack-grid,
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .cards-page {
+    width: min(100% - 28px, 1180px);
+  }
+
+  .wallet,
+  .pack-grid,
+  .cards-grid,
+  #card-detail,
+  .owned-pack {
+    grid-template-columns: 1fr;
+  }
+
+  .trading-card {
+    min-height: 390px;
+  }
+}
